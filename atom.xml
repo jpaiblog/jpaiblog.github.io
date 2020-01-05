@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-05T14:09:50.221Z</updated>
+  <updated>2020-01-05T14:12:37.009Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,21 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Test</title>
+    <title>jpaiblog について</title>
     <link href="http://yoursite.com/2020/01/05/Test/"/>
     <id>http://yoursite.com/2020/01/05/Test/</id>
     <published>2020-01-05T14:09:50.000Z</published>
-    <updated>2020-01-05T14:09:50.221Z</updated>
+    <updated>2020-01-05T14:12:37.009Z</updated>
+    
+    <content type="html"><![CDATA[<p>日本マイクロソフトの Cognitive Serivce 製品に関するサポート情報のブログです。</p>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;p&gt;日本マイクロソフトの Cognitive Serivce 製品に関するサポート情報のブログです。&lt;/p&gt;
+
+      
     
     </summary>
     
