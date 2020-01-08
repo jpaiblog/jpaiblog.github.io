@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Japan Cognitive Service Support Blog</title>
+  
+  
+  <link href="/blog/atom.xml" rel="self"/>
+  
+  <link href="https://jpaiblog.github.io/"/>
+  <updated>2020-01-07T15:59:17.506Z</updated>
+  <id>https://jpaiblog.github.io/</id>
+  
+  <author>
+    <name>jpaiblog</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>jpaiblog について</title>
+    <link href="https://jpaiblog.github.io/2020/01/01/about-jpaiblog/"/>
+    <id>https://jpaiblog.github.io/2020/01/01/about-jpaiblog/</id>
+    <published>2019-12-31T15:00:00.000Z</published>
+    <updated>2020-01-07T15:59:17.506Z</updated>
+    
+    <content type="html"><![CDATA[<p>日本マイクロソフトの Cognitive Serivce に関するサポート情報のブログです。製品のサポート メンバーによって更新いたします。</p><h3 id="公開日"><a href="#公開日" class="headerlink" title="公開日"></a>公開日</h3><p>2020 年 1 月より公開いたしました。</p><h3 id="活動について"><a href="#活動について" class="headerlink" title="活動について"></a>活動について</h3><p>仕様に関する情報やトラブル シューティングの手順、実装におけるワンポイント アドバイスを公開いたします。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;日本マイクロソフトの Cognitive Serivce に関するサポート情報のブログです。製品のサポート メンバーによって更新いたします。&lt;/p&gt;
+&lt;h3 id=&quot;公開日&quot;&gt;&lt;a href=&quot;#公開日&quot; class=&quot;headerlink&quot; title=&quot;公開日&quot;&gt;&lt;/a
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
