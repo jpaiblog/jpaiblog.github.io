@@ -8,9 +8,21 @@
       <link href="/blog/2020/01/01/about-jpaiblog/"/>
       <url>/blog/2020/01/01/about-jpaiblog/</url>
       
-        <content type="html"><![CDATA[<p>日本マイクロソフトの Cognitive Serivce に関するサポート情報のブログです。製品のサポート メンバーによって更新いたします。</p><h3 id="公開日"><a href="#公開日" class="headerlink" title="公開日"></a>公開日</h3><p>2020 年 1 月より公開いたしました。</p><h3 id="活動について"><a href="#活動について" class="headerlink" title="活動について"></a>活動について</h3><p>仕様に関する情報やトラブル シューティングの手順、実装におけるワンポイント アドバイスを公開いたします。</p>]]></content>
+        <content type="html"><![CDATA[<p>日本マイクロソフトの Cognitive Serivce に関するサポート情報のブログです。</p><h3 id="公開日"><a href="#公開日" class="headerlink" title="公開日"></a>公開日</h3><p>2020 年 1 月 1 日より公開いたしました。</p><h3 id="活動について"><a href="#活動について" class="headerlink" title="活動について"></a>活動について</h3><p>製品のサポート メンバーによって運用されております。仕様に関する情報やトラブル シューティングの手順、実装におけるワンポイント アドバイスを公開いたします。</p><h3 id="留意事項"><a href="#留意事項" class="headerlink" title="留意事項"></a>留意事項</h3><p>サイトのコンテンツや情報において、可能な限り正確な情報を掲載し、更新するよう努めております。しかしながら、状況の変化や情報が古くなることにより、必ずしもお客様環境に適用できない情報となる場合がございます。恐れ入りますが、予めご留意くださいますようお願い申し上げます。</p>]]></content>
       
       
+      <categories>
+          
+          <category> Cognitive Services 全般 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> はじめに </tag>
+            
+        </tags>
       
     </entry>
     
