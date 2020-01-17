@@ -11,5 +11,5 @@ tags:
 ## テンプレートファイルについて
 これはテンプレートファイルです。このファイルはブログサイトにはアップロードされません。
 
-![Template](https://jpaiblog.github.io/images/_template.png "Template")
+![Template](https://jpaiblog.github.io/images/template.png "Template")
 
