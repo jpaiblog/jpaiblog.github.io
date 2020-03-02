@@ -7,7 +7,7 @@ tags:
 - QNA Maker 管理サービス
 ---
 
-QNA Maker の管理サービスのについてご説明いたします。
+QNA Maker の管理サービスについてご説明いたします。
 <!-- more -->
 <br>
 
