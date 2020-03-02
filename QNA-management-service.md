@@ -7,32 +7,29 @@ tags:
 - QNA Maker 管理サービス
 ---
 
-QNA Maker の管理サービスについてご説明いたします。
+QNA Maker の管理サービスについて説明します。
 <!-- more -->
 <br>
 
 ***
-QnA Maker サービスの全体構成につきましては下記ドキュメントの図をご参照ください。  
+QnA Maker サービスの全体構成は下記ドキュメントの図を参照ください。  
  
 - [QnA Maker のリソースを管理する](https://docs.microsoft.com/ja-jp/azure/cognitive-services/qnamaker/how-to/set-up-qnamaker-service-azure)  
 
    ![QNA Maker](https://jpaiblog.github.io/images/key-management.png)  
 
-この図の中で、Cognitive Services としてのリソースは、QnA Maker Subscription に相当いたします。「5. Manage KB in portal or via APIs」においてポータルを操作して KB を編集した場合には、米国西部リージョンにおいてホストされている API 群が呼び出されます。この API 群を別リージョンに移行することができないため、[こちら](https://docs.microsoft.com/ja-jp/azure/cognitive-services/qnamaker/how-to/set-up-qnamaker-service-azure#management-service-region) に記載されております通り、米国西部リージョン固定となっております。  
+この図の中で、Cognitive Services としてのリソースは、QnA Maker Subscription に相当します。「5. Manage KB in portal or via APIs」においてポータルを操作して KB を編集した場合には、米国西部リージョンにおいてホストされている API 群が呼び出されます。この API 群を別リージョンに移行することができないため、[こちら](https://docs.microsoft.com/ja-jp/azure/cognitive-services/qnamaker/how-to/set-up-qnamaker-service-azure#management-service-region) に記載されております通り、米国西部リージョン固定となります。  
 
-米国西部リージョンにある API のバックエンドから、Web Apps 上でホストされた QnA Maker ランタイムに対してアクセスし、Q&A の追加や削除といった操作が実現されております。  
+米国西部リージョンにある API のバックエンドから、Web Apps 上でホストされた QnA Maker ランタイムに対してアクセスし、Q&A の追加や削除といった操作が実現されます。なお、実際の KB のコンテンツ (Q&A、メタデータ等) は Azure Search に保存されており、ユーザーのチャットログは Application Insights に保存されているため、顧客データは米国西部リージョンには保存されません。  
 
-なお、実際の KB のコンテンツ (Q&A、メタデータ等) は Azure Search に保存されており、ユーザーのチャットログは Application Insights に保存されておりますので、顧客データは米国西部リージョンには保存されません。  
-
-※ 管理サービスで使用する API の詳細は以下サイトをご参照ください。  
+※ 管理サービスで使用する API の詳細は以下サイトを参照ください。  
  
 - [QnA Maker V4.0](https://westus.dev.cognitive.microsoft.com/docs/services/5a93fcf85b4ccd136866eb37/operations/5ac266295b4ccd1554da75ff)  
 
-KB を公開した後の、ボット等のアプリケーションからの問い合わせ (4. User QnA endpoint in Bot) は GenerateAnswer API が使用されます。これは QnA Maker ランタイム (Web Apps) に対して実行されます。そのため、ユーザーからの問い合わせに応答する場合には、米国西部リージョンを経由することはございません。
+KB を公開した後の、ボット等のアプリケーションからの問い合わせ (4. User QnA endpoint in Bot) は GenerateAnswer API が使用されます。これは QnA Maker ランタイム (Web Apps) に対して実行されます。そのため、ユーザーからの問い合わせに応答する場合には、米国西部リージョンを経由することはありません。
 
 ※ GenerateAnswer API の詳細は以下サイトをご参照ください。  
  
 - [GenerateAnswer API およびメタデータを使って回答を取得する](https://westus.dev.cognitive.microsoft.com/docs/services/5a93fcf85b4ccd136866eb37/operations/5ac266295b4ccd1554da75ff)  
-
 
 ***
