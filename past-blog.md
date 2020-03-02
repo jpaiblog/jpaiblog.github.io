@@ -6,7 +6,7 @@ categories:
 tags:
 - 過去ブログ
 ---
-過去のブログ情報を紹介いたします。
+過去のブログ情報を紹介します。
 <!-- more -->
 ## Cognitive Services
 

@@ -26,10 +26,9 @@ QnA Maker サービスの全体構成は下記ドキュメントの図を参照�
  
 - [QnA Maker V4.0](https://westus.dev.cognitive.microsoft.com/docs/services/5a93fcf85b4ccd136866eb37/operations/5ac266295b4ccd1554da75ff)  
 
-KB を公開した後の、ボット等のアプリケーションからの問い合わせ (4. User QnA endpoint in Bot) は GenerateAnswer API が使用されます。これは QnA Maker ランタイム (Web Apps) に対して実行されます。そのため、ユーザーからの問い合わせに応答する場合には、米国西部リージョンを経由することはありません。
+KB を公開した後の、ボット等のアプリケーションからの問い合わせ (4. User QnA endpoint in Bot) は GenerateAnswer API が使用されます。これは QnA Maker ランタイム (Web Apps) に対して直接アクセスするため、米国西部リージョンを経由することはありません。
 
 ※ GenerateAnswer API の詳細は以下サイトをご参照ください。  
  
 - [GenerateAnswer API およびメタデータを使って回答を取得する](https://westus.dev.cognitive.microsoft.com/docs/services/5a93fcf85b4ccd136866eb37/operations/5ac266295b4ccd1554da75ff)  
-
 ***
