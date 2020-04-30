@@ -2,12 +2,15 @@
 title: 過去ブログについて
 date: 2020-01-12 00:00:00
 categories:
-- Cognitive Services 全般
+- Cognitive Services
 tags:
 - 過去ブログ
 ---
 過去のブログ情報を紹介します。
 <!-- more -->
+<br>
+
+***
 ## Cognitive Services
 
 - [Translator Text API の翻訳文字数の確認方法](https://social.msdn.microsoft.com/Forums/ja-JP/255a225d-24e5-4e21-ad28-7fab33088131/translator-text-api-?forum=cognitivesupportteamja)

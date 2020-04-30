@@ -2,7 +2,7 @@
 title: jpaiblog について
 date: 2020-01-01 00:00:00
 categories:
-- Cognitive Services 全般
+- Cognitive Services
 tags:
 - はじめに
 ---

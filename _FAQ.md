@@ -2,11 +2,10 @@
 title: FAQ
 date: 2020-01-16 00:00:00
 categories:
-- Cognitive Services 全般
+- Cognitive Services
 tags:
 - FAQ
 ---
-
 よくあるご質問とその回答をお纏めいたします。
 <!-- more -->
 <br>
