@@ -28,7 +28,7 @@ Cognitive Serivces の API について、テスト実行用のサイトを紹�
 
 <br>
 各 API の直リンクを紹介します。  
-Video Indexer, Speech Service, Bing Speech (廃止), Translator Speech (廃止), Translator Text, Bing Search 計 API はここに含まれておりません。
+Video Indexer, Speech Service, Bing Speech (廃止), Translator Speech (廃止), Translator Text, Bing Search 系 API はここに含まれておりません。
 
 ***
 #### Computer Vision
