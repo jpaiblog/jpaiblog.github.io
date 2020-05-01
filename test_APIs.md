@@ -26,12 +26,11 @@ Cognitive Serivces の API について、テスト実行用のサイトを紹�
 [Cognitive Services APIs (southcentralus)](https://southcentralus.dev.cognitive.microsoft.com/docs/services)  
 [Cognitive Services APIs (westeurope)](https://westeurope.dev.cognitive.microsoft.com/docs/services)  
 
-<br>
-各 API の直リンクを紹介します。  
-Video Indexer, Speech Service, Bing Speech (廃止), Translator Speech (廃止), Translator Text, Bing Search 系 API はここに含まれておりません。
+<br>API のテスト実行可能な直リンクを紹介します。  
+Video Indexer, Speech Service, Bing Speech (廃止), Translator Speech (廃止), Translator Text, Bing Search 系 API は含まれておりません。
 
 ***
-#### Computer Vision
+#### [Computer Vision](https://docs.microsoft.com/ja-jp/azure/cognitive-services/computer-vision/)
 - [v3.0 (Preview)](https://westus2.dev.cognitive.microsoft.com/docs/services/5d98695995feb7853f67d6a6/operations/5d9869604be85dee480c8750)  
 - [v2.1](https://westus.dev.cognitive.microsoft.com/docs/services/5cd27ec07268f6c679a3e641/operations/56f91f2e778daf14a499f21b)  
 <details><summary style="font-size: 10pt">使用方法</summary>
@@ -127,3 +126,5 @@ Video Indexer, Speech Service, Bing Speech (廃止), Translator Speech (廃止),
 </details>
 
 ***
+<br>
+※ このページは 2020 年 5 月 1 日に更新しました。
