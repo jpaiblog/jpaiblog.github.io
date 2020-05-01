@@ -26,8 +26,7 @@ Cognitive Serivces の API について、テスト実行用のサイトを紹�
 [Cognitive Services APIs (southcentralus)](https://southcentralus.dev.cognitive.microsoft.com/docs/services)  
 [Cognitive Services APIs (westeurope)](https://westeurope.dev.cognitive.microsoft.com/docs/services)  
 
-<br>API のテスト実行可能な直リンクを紹介します。  
-Video Indexer, Speech Service, Bing Speech (廃止), Translator Speech (廃止), Translator Text, Bing Search 系 API は含まれておりません。
+<br>API のテスト実行可能な直リンクを紹介します。Video Indexer, Speech Service, Bing Speech (廃止), Translator Speech (廃止), Translator Text, Bing Search 系 API は含まれておりません。
 
 ***
 #### [Computer Vision](https://docs.microsoft.com/ja-jp/azure/cognitive-services/computer-vision/)
