@@ -52,18 +52,18 @@ Cognitive Serivces の API について、テスト実行用のサイトを紹�
 - [v1.0 (Preview)](https://docs.microsoft.com/en-us/rest/api/cognitiveservices/inkrecognizer/inkrecognizer)  
 
 ***
-#### Speaker Recognition (Preview)
+#### [Speaker Recognition (Preview)](https://docs.microsoft.com/ja-jp/azure/cognitive-services/speaker-recognition/home)
 - [v1.0 (Preview)](https://westus.dev.cognitive.microsoft.com/docs/services/563309b6778daf02acc0a508/operations/5645c3271984551c84ec6797)  
 
 ***
-#### Language Understanding - LUIS
+#### [Language Understanding - LUIS](https://docs.microsoft.com/ja-jp/azure/cognitive-services/luis/)
 - [v3.0 オーサリング (preview)](https://westeurope.dev.cognitive.microsoft.com/docs/services/luis-programmatic-apis-v3-0-preview/operations/5890b47c39e2bb052c5b9c2f)  
 - [v3.0 予測](https://westus.dev.cognitive.microsoft.com/docs/services/luis-endpoint-api-v3-0/operations/5cb0a91e54c9db63d589f433)  
 - [v2.0 オーサリング](https://westus.dev.cognitive.microsoft.com/docs/services/5890b47c39e2bb17b84a55ff/operations/5890b47c39e2bb052c5b9c2f)  
 - [v2.0 予測](https://westus.dev.cognitive.microsoft.com/docs/services/5819c76f40a6350ce09de1ac/operations/5819c77140a63516d81aee78)  
 
 ***
-#### QnA Maker
+#### [QnA Maker](https://docs.microsoft.com/ja-jp/azure/cognitive-services/qnamaker/)
 - [v4.0 Alterations](https://docs.microsoft.com/ja-jp/rest/api/cognitiveservices/qnamaker/alterations)  
 - [v4.0 Endpoint Keys](https://docs.microsoft.com/ja-jp/rest/api/cognitiveservices/qnamaker/endpointkeys)  
 - [v4.0 Endpoint Settings](https://docs.microsoft.com/ja-jp/rest/api/cognitiveservices/qnamaker/endpointsettings)  
@@ -72,21 +72,21 @@ Cognitive Serivces の API について、テスト実行用のサイトを紹�
 - [v4.0 Runtime](https://docs.microsoft.com/ja-jp/rest/api/cognitiveservices/qnamakerruntime/runtime)  
 
 ***
-#### Text Analytics
+#### [Text Analytics](https://docs.microsoft.com/ja-jp/azure/cognitive-services/text-analytics/)
 - [v3.0 (Preview)](https://westus.dev.cognitive.microsoft.com/docs/services/TextAnalytics-v3-0-Preview-1/operations/Languages)  
 - [v2.1](https://westcentralus.dev.cognitive.microsoft.com/docs/services/TextAnalytics-v2-1/operations/56f30ceeeda5650db055a3c7)  
 
 ***
-#### Anomaly Detector (Preview)
+#### [Anomaly Detector (Preview)](https://docs.microsoft.com/ja-jp/azure/cognitive-services/anomaly-detector/)
 - [v1.0 (Preview)](https://westus2.dev.cognitive.microsoft.com/docs/services/AnomalyDetector/operations/post-timeseries-entire-detect)  
 
 ***
-#### Content Moderator
+#### [Content Moderator](https://docs.microsoft.com/ja-jp/azure/cognitive-services/content-moderator/)
 - [v1.0 Moderate](https://westus.dev.cognitive.microsoft.com/docs/services/57cf753a3f9b070c105bd2c1/operations/57cf753a3f9b070868a1f66c)  
 - [v1.0 Review](https://westus.dev.cognitive.microsoft.com/docs/services/580519463f9b070e5c591178/operations/580519483f9b0709fc47f9c5)  
 
 ***
-#### Personalizer
+#### [Personalizer](https://docs.microsoft.com/ja-jp/azure/cognitive-services/personalizer/)
 - [v1.0](https://westus2.dev.cognitive.microsoft.com/docs/services/personalizer-api/operations/Rank)  
 
 ***
