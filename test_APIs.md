@@ -55,7 +55,7 @@ Cognitive Serivces の API について、テスト実行用の参考サイト�
 
 ***
 #### [Speech Service](https://docs.microsoft.com/ja-jp/azure/cognitive-services/speech-service/)  
-Speech Service はさらに複数のサービス、機能に分かれます。利用可能な REST API の参考サイトを以下に列挙します。サービス、機能の一覧は [こちら](https://docs.microsoft.com/ja-jp/azure/cognitive-services/speech-service/overview) をご確認ください。  
+Speech Service はさらに複数のサービス・機能に分かれます。利用可能な REST API の直リンクを以下に列挙します。サービス、機能の一覧は [こちら](https://docs.microsoft.com/ja-jp/azure/cognitive-services/speech-service/overview) をご確認ください。  
 - [Speech to Text - 音声テキスト変換](https://docs.microsoft.com/ja-jp/azure/cognitive-services/speech-service/rest-speech-to-text)  
 - [Text to Speech - テキスト読み上げ](https://docs.microsoft.com/ja-jp/azure/cognitive-services/speech-service/rest-text-to-speech)  
 - [Conversation transcription - 会話の文字おこし (Preview)](https://signature.centralus.cts.speech.microsoft.com/UI/index.html)
@@ -67,7 +67,7 @@ Speech Service はさらに複数のサービス、機能に分かれます。�
 
 ***
 #### [Language Understanding - LUIS](https://docs.microsoft.com/ja-jp/azure/cognitive-services/luis/)
-利用可能な REST API の仕様について [こちら](https://docs.microsoft.com/ja-jp/azure/cognitive-services/luis/developer-reference-resource#rest-specifications) を参照ください。  
+利用可能な REST API の仕様について [こちら](https://docs.microsoft.com/ja-jp/azure/cognitive-services/luis/developer-reference-resource#rest-specifications) をご確認ください。  
 - [v3.0 オーサリング (preview)](https://westeurope.dev.cognitive.microsoft.com/docs/services/luis-programmatic-apis-v3-0-preview/operations/5890b47c39e2bb052c5b9c2f)  
 - [v3.0 予測](https://westus.dev.cognitive.microsoft.com/docs/services/luis-endpoint-api-v3-0/operations/5cb0a91e54c9db63d589f433)  
 - [v2.0 オーサリング](https://westus.dev.cognitive.microsoft.com/docs/services/5890b47c39e2bb17b84a55ff/operations/5890b47c39e2bb052c5b9c2f)  
