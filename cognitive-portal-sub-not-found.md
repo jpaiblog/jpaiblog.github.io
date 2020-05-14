@@ -24,7 +24,7 @@ Azure で提供されているサービスの一部は、Azure ポータル以�
 
 これらのポータル サイトは Azure と連携しており、サインインしたユーザーの Azure サブスクリプションやリソースを、ポータル内で表示・操作することができます。
 
-しかしながら、例えば、以下のように複数の Azure AD ディレクトリ (contoso.onmicrosoft.com と fabrikam.onmicrosoft.com) に関連付けられているユーザー アカウント (`user@contoso.onmicrosoft.com`) があるとします。この場合、ロールベースのアクセス制御 (RBAC) の設定が適切でも、上記のポータル サイトでサブスクリプションやリソースが表示されないことがあります。
+しかしながら、例えば、以下のように複数の Azure AD ディレクトリ (contoso.onmicrosoft.com と fabrikam.onmicrosoft.com) に関連付けられているユーザー アカウント (user\@contoso.onmicrosoft.com) があるとします。この場合、ロールベースのアクセス制御 (RBAC) の設定が適切でも、上記のポータル サイトでサブスクリプションやリソースが表示されないことがあります。
 
 ![Cognitive Portal Sign-in](https://jpaiblog.github.io/images/cognitive-portal-sub-not-found/cognitive-portal-AAD-tenant.png)
 
