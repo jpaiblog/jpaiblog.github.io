@@ -102,4 +102,6 @@ Speech Service はさらに複数のサービス・機能に分かれます。�
 
 ***
 <br>
-※ このページは 2020 年 5 月 1 日に更新しました。
+`変更履歴`  
+`2020/04/30 created by Mochizuki`  
+`2020/05/01 modified by Mochizuki`  

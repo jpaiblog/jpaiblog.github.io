@@ -31,3 +31,5 @@ KB を公開した後の、ボット等のアプリケーションからの問�
  
 - [GenerateAnswer API およびメタデータを使って回答を取得する](https://westus.dev.cognitive.microsoft.com/docs/services/5a93fcf85b4ccd136866eb37/operations/5ac266295b4ccd1554da75ff)  
 ***
+`変更履歴`  
+`2020/03/03 created by Mochizuki`  

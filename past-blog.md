@@ -24,3 +24,6 @@ tags:
 - [Bing Speech API の新規 API キー作成は 10 月 15 日で終了しました](https://social.msdn.microsoft.com/Forums/ja-JP/e9917891-e99e-481f-a32a-34f853fdd22b/bing-speech-api-api-10-15-?forum=cognitivesupportteamja)
 - [Cognitive Services の技術サポートのお問い合わせ方法](https://social.msdn.microsoft.com/Forums/ja-JP/5b3b97c3-532e-489c-b0cb-5546a2988427/cognitive-services-?forum=cognitivesupportteamja)
 - [Cognitive Services への接続には TLS 1.2 をご利用ください](https://social.msdn.microsoft.com/Forums/ja-JP/ecab7e31-dddb-48bf-8a8f-7a9f347ae1b5/cognitive-services-tls-12-?forum=cognitivesupportteamja)
+***
+`変更履歴`  
+`2020/01/12 created by Mochizuki`  
