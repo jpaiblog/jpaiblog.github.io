@@ -30,3 +30,6 @@ tags:
 - [Azure リソースにログインしようとすると “AADSTS65005” エラーを受け取ります](https://docs.microsoft.com/ja-jp/azure/active-directory/b2b/troubleshoot#you-receive-an-aadsts65005-error-when-you-try-to-log-in-to-an-azure-resource)
 - [Azure Active Directory の非管理対象ディレクトリを管理者として引き継ぐ](https://docs.microsoft.com/ja-jp/azure/active-directory/users-groups-roles/domains-admin-takeover)
 ***
+`変更履歴`  
+`2020/03/07 created by Mochizuki`  
+</br>
