@@ -15,7 +15,7 @@ QnA Maker サービスの全体構成は下記ドキュメントの図を参照�
  
 - [QnA Maker のリソースを管理する](https://docs.microsoft.com/ja-jp/azure/cognitive-services/qnamaker/how-to/set-up-qnamaker-service-azure)  
 
-   ![QNA Maker](https://jpaiblog.github.io/images/key-management.png)  
+   ![QNA Maker](https://jpaiblog.github.io/images/QNA-management-service/key-management.png)  
 
 この図の中で、Cognitive Services としてのリソースは QnA Maker Subscription に相当します。例えば、ポータルを操作して KB を編集した場合、米国西部リージョンにおいてホストされている API 群が呼び出されます (5. Manage KB in portal or via APIs)。この API 群を別リージョンに移行することができないため、[こちら](https://docs.microsoft.com/ja-jp/azure/cognitive-services/qnamaker/how-to/set-up-qnamaker-service-azure#management-service-region) の記載の通り、Cognitive Services リソースは米国西部リージョン固定になります。  
 
