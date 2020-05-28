@@ -9,9 +9,9 @@ tags:
 
  
 Translator Text API の翻訳文字数の確認方法と、参考情報をご紹介します。
-1. [翻訳文字数データの確認手順](#１.翻訳文字数データの確認手順)
-1. [翻訳文字数データをファイルとしてダウンロードする手順](#２.翻訳文字数データをファイルとしてダウンロードする手順)
-1. [（参考情報）文字数カウント方法に関する公開ドキュメント](#３.（参考情報）文字数カウント方法に関する公開ドキュメント)
+1. [翻訳文字数データの確認手順](#翻訳文字数データの確認手順)
+1. [翻訳文字数データをファイルとしてダウンロードする手順](#翻訳文字数データをファイルとしてダウンロードする手順)
+1. [（参考情報）文字数カウント方法に関する公開ドキュメント](#（参考情報）文字数カウント方法に関する公開ドキュメント)
 
 （2020年5月28日公開時点の情報です） 
 <!-- more -->
@@ -19,38 +19,41 @@ Translator Text API の翻訳文字数の確認方法と、参考情報をご紹
 
 ***
 
-# １.翻訳文字数データの確認手順
-1. Azure Portal 上で、対象のTranslator Text API のリソースを選択します。
-1. [監視] ブレードの [メトリック] をクリックします。
-1. 表示された、画面中央の [メトリック] から [Characters Translated] を選択します。  
-![char-translated-1-3](https://jpaiblog.github.io/images/TranslatorTextAPI-char-translated/char1-3.jpg "char-translated-1-3")
-1. 画面右上にある [現地時刻: 過去 24 時間 (自動)] をクリックし、表示されたポップアップから希望の時間範囲と粒度を設定します。  
-![char-translated-1-4](https://jpaiblog.github.io/images/TranslatorTextAPI-char-translated/char1-4.jpg "char-translated-1-4")
-1. グラフ上に指定した期間の翻訳文字数が表示されます。  
-![char-translated-1-5](https://jpaiblog.github.io/images/TranslatorTextAPI-char-translated/char1-5.jpg "char-translated-1-5")
-1. なお、グラフの中で確認したい時点にカーソルをあてると、その時間帯（指定した時間の粒度単位）に絞って、翻訳文字数を表示することができます。  
-![char-translated-1-6](https://jpaiblog.github.io/images/TranslatorTextAPI-char-translated/char1-6.jpg "char-translated-1-6")
+# 翻訳文字数データの確認手順
+(1) Azure Portal 上で、対象のTranslator Text API のリソースを選択します。  
+(2) [監視] ブレードの [メトリック] をクリックします。  
+(3) 表示された、画面中央の [メトリック] から [Characters Translated] を選択します。  
+![char-translated-1-3](https://jpaiblog.github.io/images/TranslatorTextAPI-char-translated/char1-3.jpg "char-translated-1-3")  
 
-また、翻訳文字数のグラフを表示する際に設定したメトリック [Characters Translated] の説明は、下記の公開ドキュメントでご案内しております。
+(4) 画面右上にある [現地時刻: 過去 24 時間 (自動)] をクリックし、表示されたポップアップから希望の時間範囲と粒度を設定します。  
+![char-translated-1-4](https://jpaiblog.github.io/images/TranslatorTextAPI-char-translated/char1-4.jpg "char-translated-1-4")  
 
-- [Supported metrics with Azure Monitor：Microsoft.CognitiveServices/accounts](https://docs.microsoft.com/ja-jp/azure/azure-monitor/platform/metrics-supported#microsoftcognitiveservicesaccounts)
+(5) グラフ上に指定した期間の翻訳文字数が表示されます。  
+![char-translated-1-5](https://jpaiblog.github.io/images/TranslatorTextAPI-char-translated/char1-5.jpg "char-translated-1-5")  
+
+(6) グラフの中で確認したい時点にカーソルをあてると、その時間帯（指定した時間の粒度単位）に絞って、翻訳文字数を表示することができます。  
+![char-translated-1-6](https://jpaiblog.github.io/images/TranslatorTextAPI-char-translated/char1-6.jpg "char-translated-1-6")  
+
+翻訳文字数のグラフを表示する際に設定したメトリック [Characters Translated] の説明は、下記の公開ドキュメントを参照ください。  
+
+- [Supported metrics with Azure Monitor #Microsoft.CognitiveServices/accounts](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/metrics-supported#microsoftcognitiveservicesaccounts)
 > Characters Translated
 >> Total number of characters in incoming text request.
 
-# ２.翻訳文字数データをファイルとしてダウンロードする手順
-1. “１．翻訳文字数データの確認手順” に沿って、翻訳文字数のグラフを表示します。
-1. 表示された翻訳文字数のグラフ上部の　[共有] プルダウンから [Excelへのダウンロード] を選択します。  
-![char-translated-2-2](https://jpaiblog.github.io/images/TranslatorTextAPI-char-translated/char2-2.jpg "char-translated-2-2")
-1. 翻訳文字数のグラフを表示する際に設定した “メトリック”, “時間の範囲および粒度” のデータのExcelファイルがダウンロードされます。  
-![char-translated-2-3](https://jpaiblog.github.io/images/TranslatorTextAPI-char-translated/char2-3.jpg "char-translated-2-3")
+***
+# 翻訳文字数データをファイルとしてダウンロードする手順
+(1) “１．翻訳文字数データの確認手順” に沿って、翻訳文字数のグラフを表示します。  
+(2) 表示された翻訳文字数のグラフ上部の　[共有] プルダウンから [Excelへのダウンロード] を選択します。  
+![char-translated-2-2](https://jpaiblog.github.io/images/TranslatorTextAPI-char-translated/char2-2.jpg "char-translated-2-2")  
 
-# ３.（参考情報）文字数カウント方法に関する公開ドキュメント
+(3) 翻訳文字数のグラフを表示する際に設定した “メトリック”, “時間の範囲および粒度” のデータのExcelファイルがダウンロードされます。  
+![char-translated-2-3](https://jpaiblog.github.io/images/TranslatorTextAPI-char-translated/char2-3.jpg "char-translated-2-3")  
+
+***
+# （参考情報）文字数カウント方法に関する公開ドキュメント
 どのようにAPIが呼び出されるかによって、カウントされる文字数は変わります。  
-例えば、1文字入力の場合でも、その後ろに空白が付与されたままの状態のテキストがAPIに渡された場合、空白も含めた文字数がカウントされます。  
-‘A’ のような状態では、1文字とカウントされますが、後ろに3つ空白を付与した ‘A   ’ のような状態の場合は、4文字とカウントされます。  
-空白の他にも、カウントされる対象がございますので、文字数カウント方法に関する詳細は、下記の公開ドキュメントをご確認ください。
+例えば、1文字入力の場合でも、その後ろに空白が付与されたままの状態のテキストがAPIに渡された場合、空白も含めた文字数がカウントされます。‘A’ のような状態では、1文字とカウントされますが、後ろに3つ空白を付与した ‘A   ’ のような状態の場合は、4文字とカウントされます。空白の他にも、カウントされる対象がございますので、文字数カウント方法に関する詳細は、下記の公開ドキュメントをご確認ください。  
 
 - [Translator Text API の文字数のカウント方法](https://docs.microsoft.com/ja-jp/azure/cognitive-services/translator/character-counts )
-
 
 ***
