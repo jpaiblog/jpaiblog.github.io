@@ -101,7 +101,6 @@ Speech Service はさらに複数のサービス・機能に分かれます。�
 - [v1.0](https://westus2.dev.cognitive.microsoft.com/docs/services/personalizer-api/operations/Rank)  
 
 ***
-<br>
 `変更履歴`  
 `2020/04/30 created by Mochizuki`  
 `2020/05/01 modified by Mochizuki`  
