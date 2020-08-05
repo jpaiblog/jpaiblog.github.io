@@ -1,12 +1,12 @@
 ---
-title: QNA Maker の管理サービス (Cognitive Service リソース) のリージョンについて
+title: QNA Maker の管理サービス (Cognitive Services リソース) のリージョンについて
 date: 2020-03-03 00:00:00
 categories:
 - QNA Maker
 tags:
 - 管理サービス
 ---
-QNA Maker の管理サービス (Cognitive Service リソース) についてご紹介します。
+QNA Maker の管理サービス (Cognitive Services リソース) についてご紹介します。
 <!-- more -->
 <br>
 
