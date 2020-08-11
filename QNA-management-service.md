@@ -13,7 +13,7 @@ QNA Maker の管理サービス (Cognitive Services リソース) について�
 ***
 QnA Maker サービスの全体構成は下記ドキュメントの図を参照ください。  
  
-- [QnA Maker のリソースを管理する](https://docs.microsoft.com/ja-jp/azure/cognitive-services/qnamaker/how-to/set-up-qnamaker-service-azure)  
+- [QnA Maker 用の Azure リソース](https://docs.microsoft.com/ja-jp/azure/cognitive-services/qnamaker/concepts/azure-resources)
 
    ![QNA Maker](https://jpaiblog.github.io/images/QNA-management-service/key-management.png)  
 
