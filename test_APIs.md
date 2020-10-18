@@ -33,6 +33,8 @@ Cognitive Serivces の API について、テスト実行用の参考サイト�
 
 ***
 #### [Computer Vision](https://docs.microsoft.com/ja-jp/azure/cognitive-services/computer-vision/)
+- [v3.2-preview.1](https://westus2.dev.cognitive.microsoft.com/docs/services/computer-vision-v3-2-preview-1/operations/5d9869604be85dee480c8750)  
+- [v3.1](https://westus2.dev.cognitive.microsoft.com/docs/services/computer-vision-v3-1-ga/operations/56f91f2e778daf14a499f21b)  
 - [v3.0](https://westcentralus.dev.cognitive.microsoft.com/docs/services/computer-vision-v3-ga/operations/5d986960601faab4bf452005)  
 - [v2.1](https://westus.dev.cognitive.microsoft.com/docs/services/5cd27ec07268f6c679a3e641/operations/56f91f2e778daf14a499f21b)  
 - [v2.0](https://westus.dev.cognitive.microsoft.com/docs/services/5adf991815e1060e6355ad44/operations/56f91f2e778daf14a499e1fa)  
@@ -58,11 +60,11 @@ Cognitive Serivces の API について、テスト実行用の参考サイト�
 ***
 #### [Speech Service](https://docs.microsoft.com/ja-jp/azure/cognitive-services/speech-service/)  
 Speech Service はさらに複数のサービス・機能に分かれます。利用可能な REST API の直リンクを以下に列挙します。サービス、機能の一覧は [こちら](https://docs.microsoft.com/ja-jp/azure/cognitive-services/speech-service/overview) をご確認ください。  
-- [Speech to Text - 音声テキスト変換](https://docs.microsoft.com/ja-jp/azure/cognitive-services/speech-service/rest-speech-to-text)  
-- [Text to Speech - テキスト読み上げ](https://docs.microsoft.com/ja-jp/azure/cognitive-services/speech-service/rest-text-to-speech)  
-- [Conversation transcription - 会話の文字おこし (Preview)](https://signature.centralus.cts.speech.microsoft.com/UI/index.html)
-
-
+- [Speech to Text REST API](https://docs.microsoft.com/ja-jp/azure/cognitive-services/speech-service/rest-speech-to-text)  
+  - [v2.0](https://japaneast.dev.cognitive.microsoft.com/docs/services/speech-to-text-api-v2-0/operations/GetTranscription/console)  
+  - [v3.0](https://centralus.dev.cognitive.microsoft.com/docs/services/speech-to-text-api-v3-0/operations/CopyModelToSubscription)  
+- [Conversation transcription (Preview)](https://signature.centralus.cts.speech.microsoft.com/UI/index.html)
+- [Speaker Recognition](https://docs.microsoft.com/ja-jp/rest/api/speakerrecognition/)
 ***
 #### [Speaker Recognition (Preview)](https://docs.microsoft.com/ja-jp/azure/cognitive-services/speaker-recognition/home)
 - [v1.0 (Preview)](https://westus.dev.cognitive.microsoft.com/docs/services/563309b6778daf02acc0a508/operations/5645c3271984551c84ec6797)  
@@ -86,17 +88,25 @@ Speech Service はさらに複数のサービス・機能に分かれます。�
 
 ***
 #### [Text Analytics](https://docs.microsoft.com/ja-jp/azure/cognitive-services/text-analytics/)
-- [v3.0 (Preview)](https://westus.dev.cognitive.microsoft.com/docs/services/TextAnalytics-v3-0-Preview-1/operations/Languages)  
-- [v2.1](https://westcentralus.dev.cognitive.microsoft.com/docs/services/TextAnalytics-v2-1/operations/56f30ceeeda5650db055a3c7)  
+- [v3.1-preview.2](https://centralus.dev.cognitive.microsoft.com/docs/services/TextAnalytics-v3-1-Preview-2/operations/Languages)  
+- [v3.1-preview.1](https://centralus.dev.cognitive.microsoft.com/docs/services/TextAnalytics-v3-1-Preview-1/operations/Languages)  
+- [v3.0](https://centralus.dev.cognitive.microsoft.com/docs/services/TextAnalytics-v3-0/operations/Languages)  
+- [v2.1](https://centralus.dev.cognitive.microsoft.com/docs/services/TextAnalytics-v2-1/operations/56f30ceeeda5650db055a3c7)  
 
 ***
 #### [Anomaly Detector (Preview)](https://docs.microsoft.com/ja-jp/azure/cognitive-services/anomaly-detector/)
-- [v1.0 (Preview)](https://westus2.dev.cognitive.microsoft.com/docs/services/AnomalyDetector/operations/post-timeseries-entire-detect)  
+- [v1.0 (Preview)](https://westus2.dev.cognitive.microsoft.com/docs/services/AnomalyDetector/operations/post-timeseries-last-detect)  
 
 ***
 #### [Content Moderator](https://docs.microsoft.com/ja-jp/azure/cognitive-services/content-moderator/)
-- [v1.0 Moderate](https://westus.dev.cognitive.microsoft.com/docs/services/57cf753a3f9b070c105bd2c1/operations/57cf753a3f9b070868a1f66c)  
-- [v1.0 Review](https://westus.dev.cognitive.microsoft.com/docs/services/580519463f9b070e5c591178/operations/580519483f9b0709fc47f9c5)  
+- [Content Moderator API リファレンス](https://docs.microsoft.com/ja-jp/azure/cognitive-services/content-moderator/api-reference)
+  - [Content Moderator (Image, Text)](https://westus.dev.cognitive.microsoft.com/docs/services/57cf753a3f9b070c105bd2c1/operations/57cf753a3f9b070868a1f66c)  
+  - [List Management](https://westus.dev.cognitive.microsoft.com/docs/services/57cf755e3f9b070c105bd2c2/operations/57cf755e3f9b070868a1f675)  
+  - [Review (Job, Review, Workflow)](https://westus.dev.cognitive.microsoft.com/docs/services/580519463f9b070e5c591178/operations/5813b4103f9b0711b43c5c67)
+
+***
+#### [Metrics Advisor (Preview)](https://docs.microsoft.com/ja-jp/azure/cognitive-services/metrics-advisor/)
+- [v1.0 (Preview)](https://westus2.dev.cognitive.microsoft.com/docs/services/MetricsAdvisor/operations/createDataFeed)
 
 ***
 #### [Personalizer](https://docs.microsoft.com/ja-jp/azure/cognitive-services/personalizer/)
@@ -106,3 +116,4 @@ Speech Service はさらに複数のサービス・機能に分かれます。�
 `変更履歴`  
 `2020/04/30 created by Mochizuki`  
 `2020/05/01 modified by Mochizuki`  
+`2020/10/19 modified by Mochizuki`  
