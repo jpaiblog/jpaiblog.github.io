@@ -34,12 +34,12 @@ Face API 顔認識機能を、プログラミングせずに利用する方法�
 - https://raw.githubusercontent.com/MicrosoftDocs/ai-fundamentals/master/data/face/wendell/Wendell_01.jpg
 - https://raw.githubusercontent.com/MicrosoftDocs/ai-fundamentals/master/data/face/wendell/Wendell_02.jpg
 - https://raw.githubusercontent.com/MicrosoftDocs/ai-fundamentals/master/data/face/wendell/Wendell_03.jpg<br/>
-![face01](images/face-identify-without-coding/face01.jpg "face01")  
+![face01](https://jpaiblog.github.io/images/face-identify-without-coding/face01.jpg "face01")  
 
 #### ai-fundamentals/data/face/employees.jpg　（顔認識対象の画像として利用）
 - https://raw.githubusercontent.com/MicrosoftDocs/ai-fundamentals/master/data/face/employees.jpg
 <br/>
-![face02](images/face-identify-without-coding/face02.jpg "face02") 
+![face02](https://jpaiblog.github.io/images/face-identify-without-coding/face02.jpg "face02") 
 
 ***
 # 手順概要
@@ -73,7 +73,7 @@ Face API 顔認識機能を、プログラミングせずに利用する方法�
 ***
 # (準備)キーとエンドポイントを確認
 Azure ポータル画面のFaceリソース画面で、キーとエンドポイントを確認します。キーは後続の処理で利用するので、その文字列を取り置きます。<br />
-![face03](images/face-identify-without-coding/face03.jpg "face03") 
+![face03](https://jpaiblog.github.io/images/face-identify-without-coding/face03.jpg "face03") 
 
 
 ***
@@ -81,17 +81,17 @@ Azure ポータル画面のFaceリソース画面で、キーとエンドポイ�
 (1) [リファレンスAPI](https://japaneast.dev.cognitive.microsoft.com/docs/services/563879b61984550e40cbbe8d/operations/563879b61984550f30395244)ページにアクセスすると、ページの中ほどにエンドポイントを選択するセクションがあります。
 前の手順で確認したエンドポイントが記載された青いボックスをクリックして、テスト用ページへ遷移します。<br />
   
-![face04](images/face-identify-without-coding/face04.jpg "face04")
+![face04](https://jpaiblog.github.io/images/face-identify-without-coding/face04.jpg "face04")
 
 (2) テスト用ページの中ほどに、パラメータを設定するセクションがあります。<br />
 Ocp-Apim-Subscription-Key　には、前の手順で確認したキー情報を設定します。<br />
 その他項目は、以下の画像のように設定します。<br />グループID (personGroupId) もグループ名称 (name) も、ユーザーで任意に設定可能です。
 また、Request body に設定する userData はオプション項目のため、削除せずに付加したままでも構いません。<br />
 パラメータを設定し終わったら、[Send] ボタンをクリックします。<br />
-![face05](images/face-identify-without-coding/face05.jpg "face05")
+![face05](https://jpaiblog.github.io/images/face-identify-without-coding/face05.jpg "face05")
 
 (3) レスポンスセクションに結果が表示されます。 以下の画像のように [200 OK] と応答があれば問題ありません。処理が成功しています。<br />
-![face06](images/face-identify-without-coding/face06.jpg "face06")
+![face06](https://jpaiblog.github.io/images/face-identify-without-coding/face06.jpg "face06")
 
 ***
 # Ⅰ-2.グループに対して、人物を登録する
@@ -103,17 +103,17 @@ Ocp-Apim-Subscription-Key　には、前の手順で確認したキー情報を�
 前の手順で設定したグループIDを入力します。<br/>
 人物名は、ユーザー様で任意に設定可能です（この名称は以降の手順では特に利用しません）<br/>
 
-![face07](images/face-identify-without-coding/face07.jpg "face07")
+![face07](https://jpaiblog.github.io/images/face-identify-without-coding/face07.jpg "face07")
 
 (2) レスポンスセクション<br />
 以降の手順で必要となるため、自動で設定された personId を取り置きます。<br />
-![face08](images/face-identify-without-coding/face08.jpg "face08")
+![face08](https://jpaiblog.github.io/images/face-identify-without-coding/face08.jpg "face08")
 
 ***
 # Ⅰ-3.学習用画像の準備
 [デモ画面](https://azure.microsoft.com/ja-jp/services/cognitive-services/face/#demo)を開き、[Face Detection] デモが選択されていることを確認します。<br />
 以下の画像のように、画面左下の [画像のURL] 入力項目にURLを入力して [送信]　ボタンをクリックします。<br />
-![face09](images/face-identify-without-coding/face09.jpg "face09")
+![face09](https://jpaiblog.github.io/images/face-identify-without-coding/face09.jpg "face09")
 
 画面右側に、顔として認識された領域の座標情報が出力されます。<br />
 同時に画面左側に、その領域が元の顔画像に青いバウンディングボックスとして可視化されるので、どこが顔として認識されたのかが容易に確認可能です。
@@ -135,11 +135,11 @@ Ocp-Apim-Subscription-Key　には、前の手順で確認したキー情報を�
 <br />detectionModelは、現時点で最新の detection_02 バージョンを選択します。<br />
 urlには、前の手順と同じ画像のURLを入力します。<br />
 
-![face10](images/face-identify-without-coding/face10.jpg "face10")
+![face10](https://jpaiblog.github.io/images/face-identify-without-coding/face10.jpg "face10")
 
 (2) レスポンスセクション<br />
 [200 OK] と応答があれば問題ありません。また、ここで返却される persistedFaceId は以降の手順で利用しません。<br />
-![face11](images/face-identify-without-coding/face11.jpg "face11")
+![face11](https://jpaiblog.github.io/images/face-identify-without-coding/face11.jpg "face11")
 
 ***
 # Ⅰ-5.モデルの学習
@@ -147,11 +147,11 @@ urlには、前の手順と同じ画像のURLを入力します。<br />
 (1) リクエストセクション<br />
 グループIDを設定します。<br />
 
-![face12](images/face-identify-without-coding/face12.jpg "face12")
+![face12](https://jpaiblog.github.io/images/face-identify-without-coding/face12.jpg "face12")
 
 (2) レスポンスセクション<br />
 [202 Accepted]の応答があれば問題ありません。次の手順で、学習の結果を確認します。<br />
-![face13](images/face-identify-without-coding/face13.jpg "face13")
+![face13](https://jpaiblog.github.io/images/face-identify-without-coding/face13.jpg "face13")
 
 
 ***
@@ -165,7 +165,7 @@ urlには、前の手順と同じ画像のURLを入力します。<br />
 
 (2) レスポンスセクション<br />
 "status": "succeeded" と返却されていれば問題ありません。<br />
-![face15](images/face-identify-without-coding/face15.jpg "face15")
+![face15](https://jpaiblog.github.io/images/face-identify-without-coding/face15.jpg "face15")
 
 ***
 # Ⅱ-1.顔認識用画像の準備
@@ -177,11 +177,11 @@ detectionModelで、現時点で最新の detection_02 バージョンを選択�
 urlに顔認識用画像のURLを入力します。
 <br />
 
-![face16](images/face-identify-without-coding/face16.jpg "face16")
+![face16](https://jpaiblog.github.io/images/face-identify-without-coding/face16.jpg "face16")
 
 (2) レスポンスセクション<br />
 次の手順のために、出力されたfaceIdを取り置きます。<br />
-![face17](images/face-identify-without-coding/face17.jpg "face17")
+![face17](https://jpaiblog.github.io/images/face-identify-without-coding/face17.jpg "face17")
 
 <br />
 ※ 任意手順<br />
@@ -189,7 +189,7 @@ urlに顔認識用画像のURLを入力します。
 [デモ画面](https://azure.microsoft.com/ja-jp/services/cognitive-services/face/#demo) で、以下のように顔認識用画像のURLを入力して [送信]　し、検出された顔座標の状況を目視確認します。<br />
 サンプル画像に detection_02 モデルを適用すると、2つの顔が検出されます。<br/>
 
-![face18](images/face-identify-without-coding/face18.jpg "face18")
+![face18](https://jpaiblog.github.io/images/face-identify-without-coding/face18.jpg "face18")
 
 ***
 # Ⅱ-2.顔認識の実行
@@ -221,7 +221,7 @@ maxNumOfCandidatesReturned などの項目は、既定のままでも、画面�
 <br />
 以下の画像が示す結果は、検出された2つの顔のうち、1つの顔には該当する登録済人物がおらず、もう1つの顔については 0.94 の確度で登録済の人物が該当するという内容になります。<br />
 
-![face19](images/face-identify-without-coding/face19.jpg "face19")
+![face19](https://jpaiblog.github.io/images/face-identify-without-coding/face19.jpg "face19")
 
 ***
 `変更履歴`  
