@@ -162,7 +162,7 @@ urlには、前の手順と同じ画像のURLを入力します。<br />
 (1) リクエストセクション<br />
 グループIDを設定します。<br />
 
-![face14](images/face-identify-without-coding/face14.jpg "face14")
+![face14](https://jpaiblog.github.io/images/face-identify-without-coding/face14.jpg "face14")
 
 (2) レスポンスセクション<br />
 "status": "succeeded" と返却されていれば問題ありません。<br />
