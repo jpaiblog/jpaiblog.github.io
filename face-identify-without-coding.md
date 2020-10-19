@@ -39,6 +39,7 @@ Face API 顔認識機能を、プログラミングせずに利用する方法�
 #### ai-fundamentals/data/face/employees.jpg　（顔認識対象の画像として利用）
 - https://raw.githubusercontent.com/MicrosoftDocs/ai-fundamentals/master/data/face/employees.jpg
 <br/>
+
 ![face02](https://jpaiblog.github.io/images/face-identify-without-coding/face02.jpg "face02") 
 
 ***
