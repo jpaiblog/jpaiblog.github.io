@@ -27,25 +27,25 @@ Face API 顔認識機能を、プログラミングせずに利用する方法�
 ***
 
 # 利用にあたり推奨するサンプル画像について
-利用にあたっては、[チュートリアル](https://github.com/MicrosoftDocs/ai-fundamentals/blob/master/01d%20-%20Face%20Analysis.ipynb)で利用されているサンプル画像の利用を推奨します。<br/>
+利用にあたっては、[チュートリアル](https://github.com/MicrosoftDocs/ai-fundamentals/blob/master/01d%20-%20Face%20Analysis.ipynb)で利用されているサンプル画像の利用を推奨します。  
 顔認識には[一定以上の品質の画像](https://docs.microsoft.com/ja-jp/azure/cognitive-services/face/concepts/face-recognition#input-data)が必要となるため、まずは以下のサンプル画像でお試しをいただければスムーズに確認が進みます。
 
 #### ai-fundamentals/data/face/wendell　（学習する人物画像として利用）
 - https://raw.githubusercontent.com/MicrosoftDocs/ai-fundamentals/master/data/face/wendell/Wendell_01.jpg
 - https://raw.githubusercontent.com/MicrosoftDocs/ai-fundamentals/master/data/face/wendell/Wendell_02.jpg
-- https://raw.githubusercontent.com/MicrosoftDocs/ai-fundamentals/master/data/face/wendell/Wendell_03.jpg<br/>
+- https://raw.githubusercontent.com/MicrosoftDocs/ai-fundamentals/master/data/face/wendell/Wendell_03.jpg  
 ![face01](https://jpaiblog.github.io/images/face-identify-without-coding/face01.jpg "face01")  
 
 #### ai-fundamentals/data/face/employees.jpg　（顔認識対象の画像として利用）
 - https://raw.githubusercontent.com/MicrosoftDocs/ai-fundamentals/master/data/face/employees.jpg
-<br/>
+  
 
 ![face02](https://jpaiblog.github.io/images/face-identify-without-coding/face02.jpg "face02") 
 
 ***
 # 手順概要
 手順の概要は、以下の表のとおりです。    
-Ⅰ-1 から、Ⅱ-2に至るまで、順に、[API] 列のリンクをクリックして開く リファレンスAPIページ（一部について製品デモページ）での処理実行をお試しください。<br/>
+Ⅰ-1 から、Ⅱ-2に至るまで、順に、[API] 列のリンクをクリックして開く リファレンスAPIページ（一部について製品デモページ）での処理実行をお試しください。  
 なお、「Ⅰ-4 学習用画像の登録」（および「Ⅰ-3 学習用画像の準備」）については一括登録が行えないため、学習画像の枚数分、複数回の実行が必要です。  
   
 ### Ⅰ.モデルの学習を行う
@@ -64,7 +64,7 @@ Face API 顔認識機能を、プログラミングせずに利用する方法�
 
 |  手順内容  |  API  |  主要な送信パラメータ |  主要な受信パラメータ  |  備考  |
 | ---- | ---- | ---- | ---- | ---- |
-|  1.顔認識用画像の準備  |  [Face - Detect](https://japaneast.dev.cognitive.microsoft.com/docs/services/563879b61984550e40cbbe8d/operations/563879b61984550f30395236)  |  人物画像のURL  |  顔ID, 画像のURLから顔として認識された領域の座標情報  |  自分のキー配下で発行される顔IDを取得するために、リファレンスAPIページを利用<br/><br/>（任意）デモ画面で検出した顔座標状況を確認  |
+|  1.顔認識用画像の準備  |  [Face - Detect](https://japaneast.dev.cognitive.microsoft.com/docs/services/563879b61984550e40cbbe8d/operations/563879b61984550f30395236)  |  人物画像のURL  |  顔ID, 画像のURLから顔として認識された領域の座標情報  |  自分のキー配下で発行される顔IDを取得するために、リファレンスAPIページを利用    （任意）デモ画面で検出した顔座標状況を確認  |
 |  2.顔認識の実行  |  [Face - Identify](https://japaneast.dev.cognitive.microsoft.com/docs/services/563879b61984550e40cbbe8d/operations/563879b61984550f30395239)  |  グループID, 顔ID  |  (顔IDごとに) 人物ID, 確度  |  -  |
 
 ***
@@ -101,8 +101,8 @@ Ocp-Apim-Subscription-Key　には、前の手順で確認したキー情報を�
   
 [PersonGroup Person – Create](https://japaneast.dev.cognitive.microsoft.com/docs/services/563879b61984550e40cbbe8d/operations/563879b61984550f3039523c) ページを開きます。    
 (1) リクエストセクション  
-前の手順で設定したグループIDを入力します。<br/>
-人物名は、ユーザー様で任意に設定可能です（この名称は以降の手順では特に利用しません）<br/>
+前の手順で設定したグループIDを入力します。  
+人物名は、ユーザー様で任意に設定可能です（この名称は以降の手順では特に利用しません）  
 
 ![face07](https://jpaiblog.github.io/images/face-identify-without-coding/face07.jpg "face07")
 
@@ -127,8 +127,8 @@ Ocp-Apim-Subscription-Key　には、前の手順で確認したキー情報を�
 [PersonGroup Person - Add Face](https://japaneast.dev.cognitive.microsoft.com/docs/services/563879b61984550e40cbbe8d/operations/563879b61984550f3039523b) ページを開きます。  
 
 (1) リクエストセクション  
-これまでの手順で設定および取得した、グループIDと人物IDを入力します。<br/>
-また、targetFace には、前の手順で取得した顔として認識された領域の座標情報を入力します。以下のようなフォーマット変換が必要です。<br/>
+これまでの手順で設定および取得した、グループIDと人物IDを入力します。  
+また、targetFace には、前の手順で取得した顔として認識された領域の座標情報を入力します。以下のようなフォーマット変換が必要です。  
 
 | フォーマット変換前 |フォーマット（"targetFace=left,top,width,height"）変換後 |
 |-----------|------------|
@@ -188,7 +188,7 @@ urlに顔認識用画像のURLを入力します。
 ※ 任意手順  
 
 [デモ画面](https://azure.microsoft.com/ja-jp/services/cognitive-services/face/#demo) で、以下のように顔認識用画像のURLを入力して [送信]　し、検出された顔座標の状況を目視確認します。  
-サンプル画像に detection_02 モデルを適用すると、2つの顔が検出されます。<br/>
+サンプル画像に detection_02 モデルを適用すると、2つの顔が検出されます。  
 
 ![face18](https://jpaiblog.github.io/images/face-identify-without-coding/face18.jpg "face18")
 
@@ -199,17 +199,17 @@ urlに顔認識用画像のURLを入力します。
 (1) リクエストセクション  
 Request bodyに、以下のように設定します。  
 largePersonGroupId **を削除し**、**personGroupId**　にキーを変更します。そして、グループIDを入力します。  
-faceIds には、以下のように前の手順で取得した顔IDを入力します。<br/>
+faceIds には、以下のように前の手順で取得した顔IDを入力します。  
 
 
 >{
->    "**personGroupId**": "groupid01",<br/>
->    "**faceIds**": [<br/>
->    "17d2e2a6-c891-4f16-bf6e-14180c9b0e8b",<br/>
-    "a3a2ce7c-3743-4819-ae8f-47d4940bbee5"<br/>
->    ],<br/>
->    "maxNumOfCandidatesReturned": 1,<br/>
->    "confidenceThreshold": 0.5<br/>
+>    "**personGroupId**": "groupid01",  
+>    "**faceIds**": [  
+>    "17d2e2a6-c891-4f16-bf6e-14180c9b0e8b",  
+    "a3a2ce7c-3743-4819-ae8f-47d4940bbee5"  
+>    ],  
+>    "maxNumOfCandidatesReturned": 1,  
+>    "confidenceThreshold": 0.5  
 >}
 
 
