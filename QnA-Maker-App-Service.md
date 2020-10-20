@@ -14,7 +14,7 @@ QnA Maker を作成する段階で、Free 価格レベルの App Service プラ�
 # テンプレート
 ## テンプレートファイルについて
 QnA Maker を作成する際に、下図のように、QnA Maker リソース自体を含めて、同じリソースグループ内に 5 種類のリソースが自動で作られます。
-![qna-maker-related-resources]](https://jpaiblog.github.io/images/Create-QnA-Maker-with-ARM-templete/qna-maker-related-resources.png)
+![qna-maker-related-resources]](https://jpaiblog.github.io/images/QnA-Maker-App-Service/qna-maker-related-resources.png)
 
 それぞれのリソースの役割については、下記ドキュメントから確認できます。
 - [QnA Maker 用の Azure リソースとその役割](https://docs.microsoft.com/ja-jp/azure/cognitive-services/qnamaker/concepts/azure-resources#resource-purposes)
@@ -82,4 +82,4 @@ ARM テンプレートを利用して、Free の価格レベルの App Service �
 
 ***
 `変更履歴`  
-`2020/03/03 created by Chao`  
+`2020/10/20 created by Chao`  
