@@ -1,38 +1,43 @@
 ---
-title: QnA Maker リソースに関連付けられている App Service プランについて
+title: QnA Maker に関連する App Service の価格レベルについて
 date: 2020-10-20 12:00:00
 categories:
 - QnA Maker
 tags:
-- リソースの作成
+- QnA Maker
 ---
-QnA Maker を作成する段階で、Free 価格レベルの App Service プランを作成する方法をご紹介します。
+
+QnA Maker に関連する App Servcie の価格レベルを Free に調整する方法をご紹介します。
 <!-- more -->
 <br>
 
 ***
-# テンプレート
-## テンプレートファイルについて
-QnA Maker を作成する際に、下図のように、QnA Maker リソース自体を含めて、同じリソースグループ内に 5 種類のリソースが自動で作られます。<br>
+# QnA Maker の関連リソースについて
+QnA Maker を作成する際に、以下の図のように、QnA Maker リソース自体を含めて、同じリソースグループ内に 5 種類のリソースが自動で作られます。<br>
 ![qna-maker-related-resources](https://jpaiblog.github.io/images/QnA-Maker-App-Service/qna-maker-related-resources.png)
 
-それぞれのリソースの役割については、下記ドキュメントから確認できます。<br>
+上記リソースのそれぞれの役割については、下記ドキュメントから確認できます。<br>
+
 - [QnA Maker 用の Azure リソースとその役割](https://docs.microsoft.com/ja-jp/azure/cognitive-services/qnamaker/concepts/azure-resources#resource-purposes)
 
-QnA Maker の利用を検討される段階で、無料での利用が望ましいが、なんと Free 価格レベルの QnA Maker を作成しようとしたら、関連のリソース App Service プランの価格レベルの既定値は、Standard (S1) となっています。
+<br>
+
+# App Service の価格レベルを調整する方法について
+QnA Maker の利用を検討される段階で、無料での利用が望ましいが、Free 価格レベルの QnA Maker を作成しようとしたら、関連のリソース App Service プランの価格レベルの既定値は、Standard (S1) となっています。
 これは、多くの一般的なシナリオで問題なく QnA Maker を利用できるコンピューティング リソースを確保するためです。
 
 もし課金を抑えたい場合は、QnA Maker の作成後、すぐに関連のリソース App Service プランの価格レベルを Free に変更すればいいです。
 
-下図のように、App Service プラン リソースの画面で、スケール アップ (App Service のプラン) ⇒ 開発/テスト ⇒ F1  ⇒ 適用 の順に実施すると、App Service プランの価格レベルを Free に変更できます。<br>
+以下の図のように、App Service プラン リソースの画面で、スケール アップ (App Service のプラン) ⇒ 開発/テスト ⇒ F1  ⇒ 適用 の順に実施すると、App Service プランの価格レベルを Free に変更できます。<br>
 ![app-service-plan-scale-down](https://jpaiblog.github.io/images/QnA-Maker-App-Service/app-service-plan-scale-down.png)
 
-Free に変更する前に、Standard 価格レベルの App Service プランに対する課金が秒単位で続けられます。（約 ¥13.216/時間）
+Free 価格レベルに変更する前に、Standard 価格レベルの App Service プランに対する課金が秒単位で続けられます。（約 ¥13.216/時間）
 各価格レベルの課金情報とそのコンピューティング リソースのスペックについては、下記リンクから確認できます。<br>
 - [App Service の価格](https://azure.microsoft.com/ja-jp/pricing/details/app-service/windows/)
 
 なお、App Service プランの価格レベルを Free に変更した場合はリソースの制約（クォータ）により正常に動作しない場合があるので、何らか問題が発生した際は必要に応じて適切な価格レベルへの変更をご検討ください。
 
+# QnA Maker を作成する段階で Free 価格レベルの App Service を作成する方法について
 ここで、補足として、QnA Maker を作成する段階で、Free 価格レベルの App Service プランのリソースを作る方法を紹介します。
 
 1. QnA Makerの作成画面で基本情報を入力します。
