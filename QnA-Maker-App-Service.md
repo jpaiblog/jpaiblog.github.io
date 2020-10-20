@@ -1,5 +1,5 @@
 ---
-title: QnA Maker に関連する App Service の価格レベルについて
+title: QnA Maker に関連する App Service プランの価格レベルについて
 date: 2020-10-20 12:00:00
 categories:
 - QnA Maker
@@ -7,20 +7,11 @@ tags:
 - QnA Maker
 ---
 
-QnA Maker に関連する App Servcie の価格レベルを Free に調整する方法をご紹介します。
+QnA Maker に関連する App Servcie プランの価格レベルを Free に調整する方法をご紹介します。
 <!-- more -->
 <br>
 
 ***
-# QnA Maker の関連リソースについて
-QnA Maker を作成する際に、以下の図のように、QnA Maker リソース自体を含めて、同じリソースグループ内に 5 種類のリソースが自動で作られます。<br>
-![qna-maker-related-resources](https://jpaiblog.github.io/images/QnA-Maker-App-Service/qna-maker-related-resources.png)
-
-上記リソースのそれぞれの役割については、下記ドキュメントから確認できます。<br>
-
-- [QnA Maker 用の Azure リソースとその役割](https://docs.microsoft.com/ja-jp/azure/cognitive-services/qnamaker/concepts/azure-resources#resource-purposes)
-
-<br>
 
 # App Service の価格レベルを調整する方法について
 QnA Maker の利用を検討される段階で、無料での利用が望ましいが、Free 価格レベルの QnA Maker を作成しようとしたら、関連のリソース App Service プランの価格レベルの既定値は、Standard (S1) となっています。
@@ -38,48 +29,48 @@ Free 価格レベルに変更する前に、Standard 価格レベルの App Serv
 なお、App Service プランの価格レベルを Free に変更した場合はリソースの制約（クォータ）により正常に動作しない場合があるので、何らか問題が発生した際は必要に応じて適切な価格レベルへの変更をご検討ください。
 
 # QnA Maker を作成する段階で Free 価格レベルの App Service を作成する方法について
-ここで、補足として、QnA Maker を作成する段階で、Free 価格レベルの App Service プランのリソースを作る方法を紹介します。
+ここで、補足として、QnA Maker を作成する段階で、ARM テンプレートを用いて Free 価格レベルの App Service プランのリソースを作る方法を紹介します。<br>
 
-1. QnA Makerの作成画面で基本情報を入力します。
+1. QnA Makerの作成画面で基本情報を入力します。<br>
 QnA Maker と Azure Search の価格レベルにそれぞれ Freeを指定した上、他の情報の入力後に、「確認および作成」をクリックします。<br>
 ![step01](https://jpaiblog.github.io/images/QnA-Maker-App-Service/step01.png)
 
-2. 「Automation オプション」をクリックします。
+2. 「Automation オプション」をクリックします。<br>
 注：この画面で「作成」をクリックしないでください。<br>
 ![step02](https://jpaiblog.github.io/images/QnA-Maker-App-Service/step02.png)
 
-3. 「ダウンロード」をクリックします。
+3. 「ダウンロード」をクリックします。<br>
 ダウンロードした zip ファイルを解凍します。 <br>
 ![step03](https://jpaiblog.github.io/images/QnA-Maker-App-Service/step03.png)
 
-4. 「カスタム テンプレートのデプロイ」を検索します。
+4. 「カスタム テンプレートのデプロイ」を検索します。<br>
 Azure ポータルの検索バーに「カスタム テンプレートのデプロイ」を入力し、下に表示される「カスタム テンプレートのデプロイ」をクリックします。<br>
 ![step04](https://jpaiblog.github.io/images/QnA-Maker-App-Service/step04.png)
 
 5. 「エディターで独自のテンプレートを作成する」をクリックします。<br>
 ![step05](https://jpaiblog.github.io/images/QnA-Maker-App-Service/step05.png)
 
-6. テンプレートファイルを読み込みます。
+6. テンプレートファイルを読み込みます。<br>
 「ファイルの読み込み」をクリックして、ステップ 3 でダウンロードした template.json ファイルを選択します。<br>
 ![step06](https://jpaiblog.github.io/images/QnA-Maker-App-Service/step06.png)
 
-7. テンプレートを編集して保存します。
-以下のように、”type:” “Microsoft.Web/serverfarms” の項目で “sku” の ”Standard” と “S1” をそれぞれ “Free” と “F1” に変更してファイルを保存します。
+7. テンプレートを編集して保存します。<br>
+以下のように、”type:” “Microsoft.Web/serverfarms” の項目で “sku” の ”Standard” と “S1” をそれぞれ “Free” と “F1” に変更してファイルを保存します。<br>
 なお、アップロード前の JSON ファイルで編集いただいても構いません。<br>
 ![step07](https://jpaiblog.github.io/images/QnA-Maker-App-Service/step07.png)
 
-8. 「パラメーターの編集」をクリックします。
+8. 「パラメーターの編集」をクリックします。<br>
 注：Web ブラウザーによってはボタンの名前が全て表示されない場合がございますので、マウスカーソルをボタン上に置いて表示されるツールチップでご確認ください。<br>
 ![step08](https://jpaiblog.github.io/images/QnA-Maker-App-Service/step08.png)
 
-9. パラメーターファイルを読み込みます。
+9. パラメーターファイルを読み込みます。<br>
 「ファイルの読み込み」をクリックし、ステップ 3 でダウンロードした parameters.json ファイルを選択します。<br>
 ![step09](https://jpaiblog.github.io/images/QnA-Maker-App-Service/step09.png)
 
 10. パラメーターを保存します。<br>
 ![step10](https://jpaiblog.github.io/images/QnA-Maker-App-Service/step10.png)
 
-11. テンプレートファイルをデプロイします。
+11. テンプレートファイルをデプロイします。<br>
 デプロイ先のリソースグループを選択した上、使用条件を確認して同意いただけましたら「購入」をクリックします。<br>
 ![step11](https://jpaiblog.github.io/images/QnA-Maker-App-Service/step11.png)
 
