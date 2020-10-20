@@ -13,7 +13,7 @@ QnA Maker に関連する App Servcie プランの価格レベルを Free に調
 
 ***
 
-# App Service の価格レベルを調整する方法について
+# App Service プランの価格レベルを調整する方法について
 QnA Maker の利用を検討される段階で、無料での利用が望ましいが、Free 価格レベルの QnA Maker を作成しようとしたら、関連のリソース App Service プランの価格レベルの既定値は、Standard (S1) となっています。<br>
 これは、多くの一般的なシナリオで問題なく QnA Maker を利用できるコンピューティング リソースを確保するためです。
 
@@ -22,7 +22,7 @@ QnA Maker の利用を検討される段階で、無料での利用が望まし�
 以下の図のように、App Service プラン リソースの画面で、スケール アップ (App Service のプラン) ⇒ 開発/テスト ⇒ F1  ⇒ 適用 の順に実施すると、App Service プランの価格レベルを Free に変更できます。<br>
 ![app-service-plan-scale-down](https://jpaiblog.github.io/images/QnA-Maker-App-Service/app-service-plan-scale-down.png)
 
-Free 価格レベルに変更する前に、Standard 価格レベルの App Service プランに対する課金が秒単位で続けられます。（約 ¥13.216/時間）
+Free 価格レベルに変更する前に、Standard 価格レベルの App Service プランに対する課金が秒単位で続けられます（約 ¥13.216/時間）。
 各価格レベルの課金情報とそのコンピューティング リソースのスペックについては、下記リンクから確認できます。<br>
 - [App Service の価格](https://azure.microsoft.com/ja-jp/pricing/details/app-service/windows/)
 
