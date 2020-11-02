@@ -38,7 +38,7 @@ Cognitive Serivces の API について、テスト実行用の参考サイト�
 
 ***
 #### [Custom Vision Service](https://docs.microsoft.com/ja-jp/azure/cognitive-services/Custom-Vision-Service/)
-- [Training v3.4-Preview)](https://southcentralus.dev.cognitive.microsoft.com/docs/services/Custom_Vision_Training_3.4-preview/operations/5f760168a787531990ba30b2)  
+- [Training v3.4-Preview](https://southcentralus.dev.cognitive.microsoft.com/docs/services/Custom_Vision_Training_3.4-preview/operations/5f760168a787531990ba30b2)  
 - [Training v3.3](https://southcentralus.dev.cognitive.microsoft.com/docs/services/Custom_Vision_Training_3.3/operations/5eb0bcc6548b571998fddebd)  
 - [Prediction v3.1](https://southcentralus.dev.cognitive.microsoft.com/docs/services/Custom_Vision_Prediction_3.1/operations/5eb37d24548b571998fde5f3)  
 
