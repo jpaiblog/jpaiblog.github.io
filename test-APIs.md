@@ -35,15 +35,12 @@ Cognitive Serivces の API について、テスト実行用の参考サイト�
 #### [Computer Vision](https://docs.microsoft.com/ja-jp/azure/cognitive-services/computer-vision/)
 - [v3.2-preview.1](https://westus2.dev.cognitive.microsoft.com/docs/services/computer-vision-v3-2-preview-1/operations/5d9869604be85dee480c8750)  
 - [v3.1](https://westus2.dev.cognitive.microsoft.com/docs/services/computer-vision-v3-1-ga/operations/56f91f2e778daf14a499f21b)  
-- [v3.0](https://westcentralus.dev.cognitive.microsoft.com/docs/services/computer-vision-v3-ga/operations/5d986960601faab4bf452005)  
-- [v2.1](https://westus.dev.cognitive.microsoft.com/docs/services/5cd27ec07268f6c679a3e641/operations/56f91f2e778daf14a499f21b)  
-- [v2.0](https://westus.dev.cognitive.microsoft.com/docs/services/5adf991815e1060e6355ad44/operations/56f91f2e778daf14a499e1fa)  
-- [v1.0](https://westus.dev.cognitive.microsoft.com/docs/services/56f91f2d778daf23d8ec6739/operations/56f91f2e778daf14a499e1fa)
 
 ***
 #### [Custom Vision Service](https://docs.microsoft.com/ja-jp/azure/cognitive-services/Custom-Vision-Service/)
-- [v3.2 Training](https://southcentralus.dev.cognitive.microsoft.com/docs/services/Custom_Vision_Training_3.2/operations/5dddfe4dc8d30b100855c608)  
-- [v3.0 Prediction](https://southcentralus.dev.cognitive.microsoft.com/docs/services/Custom_Vision_Prediction_3.0/operations/5c82db60bf6a2b11a8247c15)  
+- [Training v3.4-Preview)](https://southcentralus.dev.cognitive.microsoft.com/docs/services/Custom_Vision_Training_3.4-preview/operations/5f760168a787531990ba30b2)  
+- [Training v3.3](https://southcentralus.dev.cognitive.microsoft.com/docs/services/Custom_Vision_Training_3.3/operations/5eb0bcc6548b571998fddebd)  
+- [Prediction v3.1](https://southcentralus.dev.cognitive.microsoft.com/docs/services/Custom_Vision_Prediction_3.1/operations/5eb37d24548b571998fde5f3)  
 
 ***
 #### [Face](https://docs.microsoft.com/ja-jp/azure/cognitive-services/face/)
@@ -117,3 +114,4 @@ Speech Service はさらに複数のサービス・機能に分かれます。�
 `2020/04/30 created by Mochizuki`  
 `2020/05/01 modified by Mochizuki`  
 `2020/10/19 modified by Mochizuki`  
+`2020/11/02 modified by Mochizuki`  
