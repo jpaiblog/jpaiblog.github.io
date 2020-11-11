@@ -7,18 +7,20 @@ tags:
 - Cognitive Services
 ---
 
- 
-Coginitive Services の一部には、特有のWebポータル画面を持つサービスがあります。  
-Azureポータル画面や、それらサービス特有のWebポータル画面で 『プルダウンに選択肢が表示されるはずなのに、表示されない』 など、期待通りの画面表示とならない場合の確認方法をご紹介します。  
-（以下の画像は、Metrics Advisor サービスのポータル画面における例です）
+Webポータル画面が 『プルダウンリストに選択肢が表示されるはずなのに、表示されない』 など、期待通りに表示されない場合に確認するポイントをご紹介します。
+<!-- more -->
+<br>
 
-![browser01](https://jpaiblog.github.io/images/not-expected-display-on-the-webbrowser/browser01.jpg "browser01") 
+Coginitive Services の一部には、固有のWebポータル画面を持つサービスがあります。  
+Azureポータル画面や、それらサービス固有のWebポータル画面で期待通りの画面表示とならない場合には、まず以下3点のポイントを確認してみてください。  
+（以下の画像は、Metrics Advisor サービスのポータル画面における画面表示例です）　　
+
+![browser01](https://jpaiblog.github.io/images/not-expected-display-on-the-webbrowser/browser01.jpg "browser01") 　
 
 1. [Webブラウザの言語翻訳機能の状態を確認する](#Webブラウザの言語翻訳機能の状態を確認する)
 1. [Webブラウザから最新のデータにアクセスして確認する](#Webブラウザから最新のデータにアクセスして確認する)
 1. [現在利用しているブラウザ以外のブラウザを使用して確認する](#現在利用しているブラウザ以外のブラウザを使用して確認する) 
-<!-- more -->
-<br>
+
 
 ***
 

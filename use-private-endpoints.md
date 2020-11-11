@@ -1,6 +1,6 @@
 ---
 title: Azure Private Link を使用して、Private Endpoint 経由で Cognitive Services にアクセスする方法
-date: 2020-11-12 00:00:00
+date: 2020-11-11 00:00:00
 categories:
 - Cognitive Services
 tags:
@@ -8,15 +8,15 @@ tags:
 ---
 
  
-Azure Private Link を使用して、Private Endpoint 経由で Cognitive Services にアクセスする方法をご案内します。  
-Cognitive Services のリソースを、 パブリック インターネットに 公開せずに利用できるメリットがあります。  
+Azure Private Link を使用して、Private Endpoint 経由で Cognitive Services にアクセスする方法を解説します。  
+<!-- more -->
+<br>
+
+Private Link を使用した場合、Cognitive Services のリソースを、 パブリック インターネットに 公開せずに利用できるメリットがあります。  
 （Private Link を使用した、より実際的なシステム構成については、[Azure ネットワーク サービスの概要：Azure Private Link](https://docs.microsoft.com/ja-jp/azure/networking/networking-overview#azure-private-link) のドキュメントをご参照ください）  
-本稿では、サンプルとして以下の図のような構成を設定する手順をご説明します。
+本稿では、サンプルとして以下の図のような構成を設定する手順をご紹介します。
 
-![endpoint01](https://jpaiblog.github.io/images/use-private-endpoints/endpoint01.jpg "endpoint01") 
-
-
-
+![endpoint01](https://jpaiblog.github.io/images/use-private-endpoints/endpoint01.jpg "endpoint01")  
 
 1. [CognitiveServices：サポート状況を確認](#1.CognitiveServices：サポート状況を確認)
 1. [CognitiveServices：リソースを作成](#2.CognitiveServices：リソースを作成) 
@@ -26,14 +26,13 @@ Cognitive Services のリソースを、 パブリック インターネット�
 1. [CognitiveServices：ネットワークを制限](#6.CognitiveServices：ネットワークを制限) 
 1. [PrivateEndpoint+CognitiveServices：アクセスを確認](#7.PrivateEndpoint+CognitiveServices：アクセスを確認) 
 
-<!-- more -->
 <br>
 
 ***
 
 # 1.CognitiveServices：サポート状況を確認
 Cognitive Services のサービスのうち、仮想ネットワーク対応しているサービスを下記のドキュメントのリストで確認します。  
-本稿では、翻訳サービスの Translator API を例として取り上げ、構成していきます。
+本稿では、翻訳サービスの Translator API を例として取り上げ、構成を設定していきます。
 
 - [Configure Azure Cognitive Services virtual networks：Supported regions and service offerings](https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-virtual-networks?tabs=portal#supported-regions-and-service-offerings)
 
@@ -66,7 +65,7 @@ $body = '[{"Text":"Hello"}]'
 $response = Invoke-WebRequest -Headers @{"Ocp-Apim-Subscription-Key"=$endpointKey;"Ocp-Apim-Subscription-Region"=$region} -Method POST -Uri $uri -body $body -ContentType $contentType
 $response.Content
 ```
-このスクリプトは以下のドキュメント記載の Curl スクリプトを 参考に作成しています。
+このスクリプトは以下のドキュメント記載の Curl コマンドを利用したスクリプトを 参考に作成しています。
 
 - [Translator v3.0：リージョン リソースを使用した認証](https://docs.microsoft.com/ja-jp/azure/cognitive-services/translator/reference/v3-0-reference#authenticating-with-a-regional-resource)
 
@@ -97,9 +96,9 @@ $response.Content
 
 （ご参考）
 - [Configure Azure Cognitive Services virtual networks:DNS changes for private endpoints](https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-virtual-networks?tabs=portal#dns-changes-for-private-endpoints)  
-=== 抜粋 =====  
-When you create a private endpoint, the DNS CNAME resource record for the Cognitive Services resource is updated to an alias in a subdomain with the prefix **'privatelink'**.  
-==============
+ 
+> When you create a private endpoint, the DNS CNAME resource record for the Cognitive Services resource is updated to an alias in a subdomain with the prefix **'privatelink'**.  
+
 
 
 ***
@@ -139,4 +138,4 @@ $response.Content
 
 ***
 `変更履歴`  
-`2020/11/12 created by Uehara`  
+`2020/11/11 created by Uehara`  
