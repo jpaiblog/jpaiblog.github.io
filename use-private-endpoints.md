@@ -13,7 +13,7 @@ Cognitive Services のリソースを、 パブリック インターネット�
 （Private Link を使用した、より実際的なシステム構成については、[Azure ネットワーク サービスの概要：Azure Private Link](https://docs.microsoft.com/ja-jp/azure/networking/networking-overview#azure-private-link) のドキュメントをご参照ください）  
 本稿では、サンプルとして以下の図のような構成を設定する手順をご説明します。
 
-![endpoint01](images/use-private-endpoints/endpoint01.jpg "endpoint01") 
+![endpoint01](https://jpaiblog.github.io/images/use-private-endpoints/endpoint01.jpg "endpoint01") 
 
 
 
