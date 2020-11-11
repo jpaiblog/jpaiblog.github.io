@@ -77,7 +77,8 @@ $response.Content
 
 - [クイックスタート: Azure portal を使用してプライベート エンドポイントを作成する](https://docs.microsoft.com/ja-jp/azure/private-link/create-private-endpoint-portal)  
 
-※ 上記ドキュメント内の "[プライベート エンドポイントを作成する](https://docs.microsoft.com/ja-jp/azure/private-link/create-private-endpoint-portal#create-a-private-endpoint)" の手順で、下図のように、リソースとして ”CognitiveServices/accounts” を選択します。　　
+※ 上記ドキュメント内の "[プライベート エンドポイントを作成する](https://docs.microsoft.com/ja-jp/azure/private-link/create-private-endpoint-portal#create-a-private-endpoint)" の手順で、下図のように、リソースとして ”CognitiveServices/accounts” を選択します。  
+
 ![endpoint04](https://jpaiblog.github.io/images/use-private-endpoints/endpoint04.jpg "endpoint04")
 
 この手順が完了すると、以下のように、Cognitive Services のリソースは Internetからも Private Endpoint からもアクセス可能な状態となります。
@@ -111,7 +112,7 @@ AzureポータルのTranslator  リソースページの”ネットワーク”
 
 ![endpoint01](https://jpaiblog.github.io/images/use-private-endpoints/endpoint01.jpg "endpoint01") 
 
-手順3 で確認した Cognitive Services の通常の利用方法、パブリックインターネットを経由した疎通を再度実行し、利用できなくなっていることを確認します。
+手順3 で確認した Cognitive Services の通常の利用方法を再度実行し、パブリックインターネットを経由した利用ができなくなっていることを確認します。
 
 ***
 # 7.PrivateEndpoint+CognitiveServices：アクセスを確認
