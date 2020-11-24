@@ -97,10 +97,7 @@ $response.Content
 
 （ご参考）
 - [Configure Azure Cognitive Services virtual networks:DNS changes for private endpoints](https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-virtual-networks?tabs=portal#dns-changes-for-private-endpoints)  
-=== 抜粋 =====  
-When you create a private endpoint, the DNS CNAME resource record for the Cognitive Services resource is updated to an alias in a subdomain with the prefix **'privatelink'**.  
-==============
-
+  > When you create a private endpoint, the DNS CNAME resource record for the Cognitive Services resource is updated to an alias in a subdomain with the prefix **'privatelink'**.  
 
 ***
 # 6.CognitiveServices：ネットワークを制限

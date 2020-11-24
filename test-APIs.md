@@ -76,12 +76,12 @@ Speech Service はさらに複数のサービス・機能に分かれます。�
 
 ***
 #### [QnA Maker](https://docs.microsoft.com/ja-jp/azure/cognitive-services/qnamaker/)
-- [v4.0 Alterations](https://docs.microsoft.com/ja-jp/rest/api/cognitiveservices/qnamaker/alterations)  
-- [v4.0 Endpoint Keys](https://docs.microsoft.com/ja-jp/rest/api/cognitiveservices/qnamaker/endpointkeys)  
-- [v4.0 Endpoint Settings](https://docs.microsoft.com/ja-jp/rest/api/cognitiveservices/qnamaker/endpointsettings)  
-- [v4.0 Knowledgebase](https://docs.microsoft.com/ja-jp/rest/api/cognitiveservices/qnamaker/knowledgebase)  
-- [v4.0 Operations](https://docs.microsoft.com/ja-jp/rest/api/cognitiveservices/qnamaker/operations)  
-- [v4.0 Runtime](https://docs.microsoft.com/ja-jp/rest/api/cognitiveservices/qnamakerruntime/runtime)  
+- [v4.0 Alterations (Get, Replace)](https://docs.microsoft.com/ja-jp/rest/api/cognitiveservices/qnamaker4.0/alterations)  
+- [v4.0 Endpoint Keys (Get Keys, Reflesh Keys)](https://docs.microsoft.com/ja-jp/rest/api/cognitiveservices/qnamaker4.0/endpointkeys)  
+- [v4.0 Endpoint Settings (Get Settings, Update Settings)](https://docs.microsoft.com/ja-jp/rest/api/cognitiveservices/qnamaker4.0/endpointsettings)  
+- [v4.0 Knowledgebase (Create, Delete, Download, Publish, Replace, Update, etc.)](https://docs.microsoft.com/ja-jp/rest/api/cognitiveservices/qnamaker4.0/knowledgebase)  
+- [v4.0 Operations (Get Details)](https://docs.microsoft.com/ja-jp/rest/api/cognitiveservices/qnamaker4.0/operations)  
+- [v4.0 Runtime (GenerateAnswer, Train)](https://docs.microsoft.com/ja-jp/rest/api/cognitiveservices/qnamaker4.0/runtime)  
 
 ***
 #### [Text Analytics](https://docs.microsoft.com/ja-jp/azure/cognitive-services/text-analytics/)
