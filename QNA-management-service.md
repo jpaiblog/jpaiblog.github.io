@@ -29,7 +29,7 @@ KB を公開した後の、ボット等のアプリケーションからの問�
 
 ※ GenerateAnswer API の詳細は以下サイトをご参照ください。  
  
-- [GenerateAnswer API およびメタデータを使って回答を取得する](https://westus.dev.cognitive.microsoft.com/docs/services/5a93fcf85b4ccd136866eb37/operations/5ac266295b4ccd1554da75ff)  
+- [GenerateAnswer API およびメタデータを使って回答を取得する](https://docs.microsoft.com/ja-jp/azure/cognitive-services/qnamaker/how-to/metadata-generateanswer-usage?tabs=v1)  
 ***
 `変更履歴`  
 `2020/03/03 created by Mochizuki`  
