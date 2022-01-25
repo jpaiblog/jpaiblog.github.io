@@ -52,8 +52,9 @@ Translator Text API の翻訳文字数の確認方法と、参考情報をご紹
 どのようにAPIが呼び出されるかによって、カウントされる文字数は変わります。  
 例えば、1文字入力の場合でも、その後ろに空白が付与されたままの状態のテキストがAPIに渡された場合、空白も含めた文字数がカウントされます。‘A’ のような状態では、1文字とカウントされますが、後ろに3つ空白を付与した ‘A   ’ のような状態の場合は、4文字とカウントされます。空白の他にも、カウントされる対象がございますので、文字数カウント方法に関する詳細は、下記の公開ドキュメントをご確認ください。  
 
-- [Translator Text API の文字数のカウント方法](https://docs.microsoft.com/ja-jp/azure/cognitive-services/translator/character-counts)
+- [よく寄せられる質問 - Translator API：Translator では文字をどのようにカウントしますか。](https://docs.microsoft.com/ja-jp/azure/cognitive-services/translator/translator-faq)
 
 ***
 `変更履歴`  
 `2020/05/28 created by Uehara`  
+`2022/01/25 created by Uehara`  
