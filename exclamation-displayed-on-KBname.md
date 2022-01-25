@@ -22,8 +22,8 @@ QnA Maker ポータル画面左上のナレッジベース（KB）名称部位�
 
 マークが示すメッセージとして可能性が高いものは、以下のランタイムの更新に関するメッセージです。
 
-[QnA Maker のリソースを管理する：最新のランタイム更新プログラムを取得する](
-https://docs.microsoft.com/ja-jp/azure/cognitive-services/qnamaker/how-to/set-up-qnamaker-service-azure?tabs=v1#get-the-latest-runtime-updates)
+[QnA Maker のリソースを構成する：最新のランタイム更新プログラムを取得する](
+https://docs.microsoft.com/ja-jp/azure/cognitive-services/qnamaker/how-to/configure-qna-maker-resources#get-the-latest-runtime-updates)
 
 >QnA Maker ランタイムは、Azure portal で QnA Maker サービスを作成するときにデプロイされる Azure App Service インスタンスの一部です。   
 ランタイムの更新は定期的に行われます。  
@@ -40,3 +40,4 @@ QnA Maker App Service インスタンスは、2019 年 4 月のサイト拡張�
 ***
 `変更履歴`  
 `2021/03/18 created by Uehara`  
+`2022/01/25 created by Uehara`  
