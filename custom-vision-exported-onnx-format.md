@@ -20,17 +20,17 @@ Custom Vision では、エッジ デバイス上でのリアルタイム推論�
 
 もしコンパクト ドメイン以外のドメインで一度学習を行ったプロジェクトで、学習済みモデルのエクスポートを行いたい場合は、対象プロジェクトの設定 (Settings) から、[ドメイン (Domains)] のセクションでコンパクト ドメインを選択して、再度学習 (Train) を実行することでエクスポートが可能になります。
 
-<img src="https://jpaiblog.github.io/images/custom-vision-exported-onnx-format/custom-vision-compact-domain.png"><br clear="left">
+<img src="https://jpaiblog.github.io/images/custom-vision-exported-onnx-format/custom-vision-compact-domain.png" align="left" border="1"><br clear="left">
 
 - [コンパクト ドメインへの変換方法](https://docs.microsoft.com/ja-jp/azure/cognitive-services/custom-vision-service/export-your-model#convert-to-a-compact-domain)
 
 学習済みモデルをエクスポートするには、対象プロジェクトの [Performance] タブを選択し、[Export] をクリックします。
 
-<img src="https://jpaiblog.github.io/images/custom-vision-exported-onnx-format/custom-vision-how-to-export.png"><br clear="left">
+<img src="https://jpaiblog.github.io/images/custom-vision-exported-onnx-format/custom-vision-how-to-export.png" align="left" border="1"><br clear="left">
 
 エクスポートの際にモデル ファイルの形式を指定できます。ONNX 形式のモデルを利用する場合は以下を選択します。
 
-<img src="https://jpaiblog.github.io/images/custom-vision-exported-onnx-format/custom-vision-export-onnx.png"><br clear="left">
+<img src="https://jpaiblog.github.io/images/custom-vision-exported-onnx-format/custom-vision-export-onnx.png" align="left" border="1"><br clear="left">
 
 - [モデルをエクスポートする](https://docs.microsoft.com/ja-jp/azure/cognitive-services/custom-vision-service/export-your-model#export-your-model)
 
