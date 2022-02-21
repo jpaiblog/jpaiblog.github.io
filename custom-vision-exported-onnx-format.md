@@ -23,14 +23,18 @@ Custom Vision Service では、エッジ デバイスのリアルタイム推論
 
 ![Custom Vision Compact Domain](https://jpaiblog.github.io/images/custom-vision-exported-onnx-format/custom-vision-compact-domain.png)
 
-Custom Vision Serviceは、様々なエクスポート形式に対応しています。
-以下では、Windows ML、Android、iOS に対応した ONNX 形式のモデルを使用する方法をご紹介しておりますので適宜ご活用ください。
+また、エクスポートの際、対応するファイル形式を選択することが可能ですが、
+今回は ONNX 形式でのエクスポートを選択してください。
+
+![Export ONNX](https://jpaiblog.github.io/images/custom-vision-exported-onnx-format/custom-vision-export-onnx.png)
+
+Custom Vision Serviceは、様々なエクスポート形式に対応していますが、
+本記事では、Windows ML、Android、iOS に対応した ONNX 形式のモデルを用いたサンプルコードをご紹介いたしますので適宜ご活用ください。
 
 - [ONNXファイルを用いた推論サンプルコード](https://github.com/Azure-Samples/cognitive-services-onnx-customvision-sample)
 - [Onnx on GitHub](https://github.com/onnx/onnx)
 
-## エクスポートに関する注意事項
-
+## 注意事項
 
 ##### ■ 再学習やエクスポートのタイミングによって、ONNX ファイル内の入力および出力のフォーマットが変更されることはあるか？
 
