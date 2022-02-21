@@ -1,6 +1,6 @@
 ---
 title: Custom Vision における、ONNX 形式のモデルの入力・出力の形式について
-date: 2022-02-20 00:00:00
+date: 2022-02-21 10:30:00
 categories:
 - Cognitive Services
 tags:
@@ -42,7 +42,7 @@ Custom Vision Serviceは、様々なエクスポート形式に対応してい�
 
 ***
 `変更履歴`  
-`2022/02/20 created by kazuyaonuki`  
+`2022/02/21 created by kazuyaonuki`  
 
 ※ 本記事は 「[jpaiblog について](https://jpaiblog.github.io/blog/2020/01/01/about-jpaiblog/)」 の留意事項に準じます。  
 ※ 併せて 「[ホームページ](https://jpaiblog.github.io/blog/)」 および 「[記事一覧](https://jpaiblog.github.io/blog/archives/)」 もご参照いただければ幸いです。
