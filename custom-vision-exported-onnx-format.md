@@ -10,26 +10,34 @@ Custom Vision Service にて ONNX 形式でエクスポートされたモデル�
 <br>
 ***
 
-## エクスポートされたONNX形式モデルを使用する方法
+## エクスポートされた ONNX モデルを使用する方法
 
-Custom Vision Service では、エッジ デバイスのリアルタイム推論用に最適化されている、"コンパクト ドメイン"によって生成されたモデルのみエクスポートが可能です。
+Custom Vision Service では、エッジ デバイスのリアルタイム推論用に最適化されている、
+"コンパクト ドメイン"によって生成されたモデルのみエクスポートが可能です。
 
 - [コンパクト ドメインとは](https://docs.microsoft.com/ja-jp/azure/cognitive-services/custom-vision-service/select-domain#compact-domains)
 
-もしコンパクト ドメイン以外のドメインを設定されている学習済みモデルのエクスポートを行いたい場合は、
-対象プロジェクトの [ドメイン] セクションにて、コンパクト ドメインを選択し、再学習をしたうえでエクスポートを行ってください。
-
-- [コンパクト ドメインへの変換方法](https://docs.microsoft.com/ja-jp/azure/cognitive-services/custom-vision-service/export-your-model#convert-to-a-compact-domain)
+もしコンパクト ドメイン以外のドメインを設定された学習済みモデルのエクスポートを行いたい場合は、
+対象プロジェクトの設定の内、[ドメイン] セクションにてコンパクト ドメインを選択し、
+再学習を行ったうえでエクスポートをご実施くださいますようお願い申し上げます。
 
 ![Custom Vision Compact Domain](https://jpaiblog.github.io/images/custom-vision-exported-onnx-format/custom-vision-compact-domain.png)
 
-また、エクスポートの際、対応するファイル形式を選択することが可能ですが、
-今回は ONNX 形式でのエクスポートを選択してください。
+- [コンパクト ドメインへの変換方法](https://docs.microsoft.com/ja-jp/azure/cognitive-services/custom-vision-service/export-your-model#convert-to-a-compact-domain)
+
+学習済みモデルをエクスポートする際は、対象プロジェクトの[Performance]タブを選択し、[Export]をクリックすることで、エクスポートができます。
+
+![How To Export](https://jpaiblog.github.io/images/custom-vision-exported-onnx-format/custom-vision-how-to-export.png)
+
+なお、エクスポートの際に対応するファイル形式を指定できますが、
+ONNX モデルをご利用する場合は以下をご選択ください。
 
 ![Export ONNX](https://jpaiblog.github.io/images/custom-vision-exported-onnx-format/custom-vision-export-onnx.png)
 
-Custom Vision Serviceは、様々なエクスポート形式に対応していますが、
-本記事では、Windows ML、Android、iOS に対応した ONNX 形式のモデルを用いたサンプルコードをご紹介いたしますので適宜ご活用ください。
+- [モデルをエクスポートする](https://docs.microsoft.com/ja-jp/azure/cognitive-services/custom-vision-service/export-your-model#export-your-model)
+
+また、ONNX モデルを用いたサンプルコードをご紹介いたしますので、
+適宜ご活用いただきますようお願い申し上げます。
 
 - [ONNXファイルを用いた推論サンプルコード](https://github.com/Azure-Samples/cognitive-services-onnx-customvision-sample)
 - [Onnx on GitHub](https://github.com/onnx/onnx)
