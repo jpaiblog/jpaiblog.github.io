@@ -2,7 +2,6 @@
 title: Translator Text API へのアクセスを VNET やプライベート エンドポイントに限定する方法
 date: 2022-04-13 00:00:00
 categories:
-categories:
 - Translator Text API
 tags:
 - Translator Text API
