@@ -20,7 +20,7 @@ Translator Text API の翻訳文字数の確認方法と、参考情報をご紹
 # 翻訳文字数データの確認手順
 (1) Azure Portal 上で、対象のTranslator Text API のリソースを選択します。  
 (2) [監視] ブレードの [メトリック] をクリックします。  
-(3) 表示された、画面中央の [メトリック] から [Characters Translated] を選択します。  
+(3) 表示された、画面中央の [メトリック] から [Characters Translated] または、カスタム翻訳を行った文字数の確認に関しては [Text Custom Characters Translated] を選択します。  
 ![char-translated-1-3](https://jpaiblog.github.io/images/TranslatorTextAPI-char-translated/char1-3.jpg "char-translated-1-3")  
 
 (4) 画面右上にある [現地時刻: 過去 24 時間 (自動)] をクリックし、表示されたポップアップから希望の時間範囲と粒度を設定します。  
@@ -57,4 +57,5 @@ Translator Text API の翻訳文字数の確認方法と、参考情報をご紹
 ***
 `変更履歴`  
 `2020/05/28 created by Uehara`  
-`2022/01/25 created by Uehara`  
+`2022/01/25 modified by Uehara`  
+`2023/02/14 modified by Uehara`  
