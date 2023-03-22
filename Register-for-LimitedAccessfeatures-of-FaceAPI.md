@@ -1,12 +1,12 @@
 ---
-title: Face API 顔認識機能の申請要否について
+title: Azure Face API 顔認識機能の制限および利用申請について
 date: 2023-03-14 00:00:00
 categories:
 - Face API
 tags:
 - Face API Recognition Identify
 ---
-Azure Cognitive Service Face API に関する機能制限および、利用申請について、以下にご説明します。
+Azure Face API 顔認識機能の制限および、利用申請について、以下にご説明します。
 <!-- more -->
 <br>
 
@@ -14,8 +14,8 @@ Azure Cognitive Service Face API に関する機能制限および、利用申�
 # Face リソース作成日と機能制限
 
 2022 年 6 月より前に作成された Face リソースでは、2023 年 6 月 30 日までの間、Face API が提供する全ての機能が利用できます。<br>
-これは、2022 年 6 月に Face API の機能制限に関する発表が行われたため、それより前に作成された Face リソースに対する移行措置です。<br><br>
-なお、移行措置は 2023年 6月 30日までには終了します。<br>それ以降にも顔認識機能を継続利用する場合は、利用申請および承認が必要です。<br>
+これは、Face API の機能制限に関する発表が 2022 年 6 月に行われたため、それより前に作成された Face リソースに対する約１年の移行措置です。<br><br>
+なお、移行措置は 2023年 6月 30日までには終了します。<br>それ以降にも、後述する「顔認識」機能を継続利用する場合は、利用申請および承認が必要です。<br>
 
 [Responsible AI investments and safeguards for facial recognition | Azure Blog and Updates | Microsoft Azure (Posted on June 21, 2022)](https://azure.microsoft.com/en-us/blog/responsible-ai-investments-and-safeguards-for-facial-recognition/)
 > Starting June 30, 2023, existing customers will no longer be able to access facial recognition capabilities if their facial recognition application has not been approved.
@@ -29,12 +29,12 @@ Azure Cognitive Service Face API に関する機能制限および、利用申�
 Azure Face API の提供機能は、主に、以下の 2つの機能（顔検出、顔認識）に大別できます。
  
 
-    1. 顔検出（Facial Detection）
+    1. 顔検出
     2. 顔認識
     
 
 <p>
-上記のうち、「顔検出」 機能には  「<B>廃止される機能</B>」 と、2023 年 6 月 30 日以降も  「<B>申請不要で利用できる機能</B>」 の 2つが含まれます。<br><br>
+上記のうち、「顔検出」（<B>Facial Detection</B>）機能には  「<B>廃止される機能</B>」 と、2023 年 6 月 30 日以降も  「<B>申請不要で利用できる機能</B>」 の 2つが含まれます。<br><br>
 「顔認識」 機能は、その配下の 「顔識別」 （<B>Facial identification</B>） および 「顔検証」（<B>Facial verification</B>） ともに 「<B>申請および承認が必要な機能</B>」 です。
 </p>
 <p>
