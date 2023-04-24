@@ -32,9 +32,9 @@ Azure OpenAI Service は申請フォーム 「[Request Access to Azure OpenAI Se
 ### クォータの引き上げ
 Azure OpenAI には、適用されるクォータによる制限 (モデルごとの 1 分あたりの要求数、モデルごとの 1 分あたりのトークン数、モデル デプロイの最大数 など) があります。 この引き上げを希望する場合、申請フォーム 「[Azure OpenAI Service: Request for Quota Increase](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4xPXO648sJKt4GoXAed-0pURVJWRU4yRTMxRkszU0NXRFFTTEhaT1g1NyQlQCN0PWcu)」 より必要事項を入力して送信ください。[[3]](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits#quotas-and-limits-reference)   
 
-### 制限の緩和
+### リソース作成数
 
-Azure OpenAI には、リソースの作成数に制限があります。 この引き上げを希望する場合、申請フォーム 「[Azure OpenAI Service: Request for Resource Increase](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4xPXO648sJKt4GoXAed-0pUN05FTFMzOTBMTFg1TzZJR01RSzdOU0M5MyQlQCN0PWcu)」 より必要事項を入力して送信ください。[[3]](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits#quotas-and-limits-reference) 
+Azure OpenAI には、各リージョンに対しリソースの作成数に制限があります。 この引き上げを希望する場合、申請フォーム 「[Azure OpenAI Service: Request for Resource Increase](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4xPXO648sJKt4GoXAed-0pUN05FTFMzOTBMTFg1TzZJR01RSzdOU0M5MyQlQCN0PWcu)」 より必要事項を入力して送信ください。[[3]](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits#quotas-and-limits-reference) 
 
 ### GPT-4 モデルのプレビュー
 
