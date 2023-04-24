@@ -30,11 +30,11 @@ Azure OpenAI Service は申請フォーム 「[Request Access to Azure OpenAI Se
 弊社が定める責任ある AI の原則に従って、倫理的・社会的に問題があると考えられる利用 (abuse) を防止するために、人間によるレビューが行われる場合があります。これは要件を満たせす場合にはオプトアウトすることが可能です。申請フォーム 「[Azure OpenAI Limited Access Review: Modified Content Filters and Abuse Monitoring](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR7en2Ais5pxKtso_Pz4b1_xURE01NDY1OUhBRzQ3MkQxMUhZSE1ZUlJKTiQlQCN0PWcu)」 より必要事項を入力して送信ください。[[2]](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy?context=%2Fazure%2Fcognitive-services%2Fopenai%2Fcontext%2Fcontext#preventing-abuse-and-harmful-content-generation)  
 
 ### クォータの引き上げ
-Azure OpenAI には、適用されるクォータ (モデルごとの 1 分あたりの要求数、モデルごとの 1 分あたりのトークン数) による制限があります。 この引き上げを希望する場合、申請フォーム 「[Azure OpenAI Service: Request for Quota Increase](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4xPXO648sJKt4GoXAed-0pURVJWRU4yRTMxRkszU0NXRFFTTEhaT1g1NyQlQCN0PWcu)」 より必要事項を入力して送信ください。[[3]](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits#quotas-and-limits-reference)   
+Azure OpenAI には、適用されるクォータによる制限 (モデルごとの 1 分あたりの要求数、モデルごとの 1 分あたりのトークン数) があります。 この引き上げを希望する場合、申請フォーム 「[Azure OpenAI Service: Request for Quota Increase](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4xPXO648sJKt4GoXAed-0pURVJWRU4yRTMxRkszU0NXRFFTTEhaT1g1NyQlQCN0PWcu)」 より必要事項を入力して送信ください。[[3]](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits#quotas-and-limits-reference)   
 
 ### 制限の緩和
 
-Azure OpenAI には、適用される制限 (微調整されたモデル デプロイの最大数 ※ 既定 2、 最大 6) があります。この引き上げを希望する場合、申請フォーム 「[Azure OpenAI Service: Request for Resource Increase](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4xPXO648sJKt4GoXAed-0pUN05FTFMzOTBMTFg1TzZJR01RSzdOU0M5MyQlQCN0PWcu)」 より必要事項を入力して送信ください。[[3]](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits#quotas-and-limits-reference) 
+Azure OpenAI には、一部の機能の使用量に関する制限 (微調整されたモデル デプロイの最大数 ※ 既定 2、 最大 6) があります。この引き上げを希望する場合、申請フォーム 「[Azure OpenAI Service: Request for Resource Increase](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4xPXO648sJKt4GoXAed-0pUN05FTFMzOTBMTFg1TzZJR01RSzdOU0M5MyQlQCN0PWcu)」 より必要事項を入力して送信ください。[[3]](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits#quotas-and-limits-reference) 
 
 ### GPT-4 モデルのプレビュー
 
