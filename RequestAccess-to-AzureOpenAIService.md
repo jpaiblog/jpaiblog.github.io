@@ -34,7 +34,7 @@ Azure OpenAI には、適用されるクォータ (モデルごとの 1 分あ�
 
 ### 制限の緩和
 
-Azure OpenAI には、適用される制限 (微調整されたモデル デプロイの最大数 ※ 最大 2 ～ 最大 6) を緩和する場合、申請フォーム 「[Azure OpenAI Service: Request for Resource Increase](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4xPXO648sJKt4GoXAed-0pUN05FTFMzOTBMTFg1TzZJR01RSzdOU0M5MyQlQCN0PWcu)」 より必要事項を入力して送信ください。[[3]](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits#quotas-and-limits-reference) 
+Azure OpenAI には、適用される制限 (微調整されたモデル デプロイの最大数 ※ 既定 2、 最大 6) を緩和する場合、申請フォーム 「[Azure OpenAI Service: Request for Resource Increase](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4xPXO648sJKt4GoXAed-0pUN05FTFMzOTBMTFg1TzZJR01RSzdOU0M5MyQlQCN0PWcu)」 より必要事項を入力して送信ください。[[3]](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits#quotas-and-limits-reference) 
 
 ### GPT-4 モデルのプレビュー
 
