@@ -36,16 +36,14 @@ Azure OpenAI Service は申請フォーム 「[Request Access to Azure OpenAI Se
   > Content Filteringの停止はAzure OpenAI Studio [管理]->[Content Filters]よりFilteringをオフに設定可能かどうかで確認可能です。[[6]](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/content-filters)  
   ![contentFiltering-01](https://jpaiblog.github.io/images/RequestAccess-to-AzureOpenAIService/contentFiltering-01.png "contentFiltering-01")  
 
-<br>
-
 ### クォータの引き上げ
-Azure OpenAI には、適用されるクォータによる制限 (モデルごとの 1 分あたりの要求数、モデルごとの 1 分あたりのトークン数、モデル デプロイの最大数 など) があります。 この引き上げを希望する場合、申請フォーム 「[Azure OpenAI Service: Request for Quota Increase](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4xPXO648sJKt4GoXAed-0pURVJWRU4yRTMxRkszU0NXRFFTTEhaT1g1NyQlQCN0PWcu)」 より必要事項を入力して送信ください。[[3]](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits#quotas-and-limits-reference)   
+Azure OpenAI には、適用されるクォータによる制限 (モデルごとの 1 分あたりの要求数、モデルごとの 1 分あたりのトークン数、モデル デプロイの最大数 など) があります。 この引き上げを希望する場合、申請フォーム 「[Azure OpenAI Service: Request for Quota Increase](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4xPXO648sJKt4GoXAed-0pURVJWRU4yRTMxRkszU0NXRFFTTEhaT1g1NyQlQCN0PWcu)」 より必要事項を入力して送信ください。[[3]](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits#quotas-and-limits-reference)  
 
 - 2023/05/23現在の状況    
   > Azure OpenAI Service は世界中から非常に高い需要が続いています。  
   > そのため、大変恐れ入りますがリソースまたはクォータの制限を引き上げる要求は、現在受付を停止しています。  
   > 受付が再開される時期については、今後の更新をお待ちいただけますと幸いです。  
-  > 最新の状況については[Azure OpenAI Service のクォータと制限](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits#how-to-request-increases-to-the-default-quotas-and-limits)のドキュメントをご参照ください。[[5]](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits#how-to-request-increases-to-the-default-quotas-and-limits)
+  > 最新の状況については[Azure OpenAI Service のクォータと制限](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits#how-to-request-increases-to-the-default-quotas-and-limits)のドキュメントをご参照ください。[[5]](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits#how-to-request-increases-to-the-default-quotas-and-limits)  
 
 ### リソース作成数
 
