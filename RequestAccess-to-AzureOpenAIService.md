@@ -34,7 +34,8 @@ Azure OpenAI Service は申請フォーム 「[Request Access to Azure OpenAI Se
   > A. はい、確認方法があります。   
   > Abuse Monitoring は"ContentLogging"の項目が"false"となっているかを参照することで確認可能です。[[2]](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy#how-can-a-customer-verify-if-data-storage-for-abuse-monitoring-is-off)  
   > Content Filteringの停止はAzure OpenAI Studio [管理]->[Content Filters]よりFilteringをオフに設定可能かどうかで確認可能です。[[6]](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/content-filters)  
-  ![contentFiltering-01](https://jpaiblog.github.io/images/RequestAccess-to-AzureOpenAIService/contentFiltering-01.png "contentFiltering-01") 
+  ![contentFiltering-01](https://jpaiblog.github.io/images/RequestAccess-to-AzureOpenAIService/contentFiltering-01.png "contentFiltering-01")  
+
 <br>
 
 ### クォータの引き上げ
@@ -48,7 +49,7 @@ Azure OpenAI には、適用されるクォータによる制限 (モデルご�
 
 ### リソース作成数
 
-Azure OpenAI には、各リージョンに対しリソースの作成数に制限があります。 この引き上げを希望する場合、申請フォーム 「[Azure OpenAI Service: Request for Resource Increase](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4xPXO648sJKt4GoXAed-0pUN05FTFMzOTBMTFg1TzZJR01RSzdOU0M5MyQlQCN0PWcu)」 より必要事項を入力して送信ください。[[3]](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits#quotas-and-limits-reference) 
+Azure OpenAI には、各リージョンに対しリソースの作成数に制限があります。 この引き上げを希望する場合、申請フォーム 「[Azure OpenAI Service: Request for Resource Increase](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4xPXO648sJKt4GoXAed-0pUN05FTFMzOTBMTFg1TzZJR01RSzdOU0M5MyQlQCN0PWcu)」 より必要事項を入力して送信ください。[[3]](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits#quotas-and-limits-reference)  
 
 ### GPT-4 モデル
 
@@ -59,7 +60,8 @@ GTP-4 モデルを利用する場合、申請フォーム 「[Azure OpenAI GPT-4
   > A. Azure OpenAI Service の GPT-4 は世界中から非常に高い需要が続いています。  
   > 現在はリソースを増強して既存顧客へ提供するサービスの品質を維持しながら、順次新しいお客様を受け入れています。  
   > そのため、大変恐れ入りますがリクエストが承認される具体的な時期 (リードタイム) を事前にお約束することは難しい状況です。  
-  > 最終的には希望されている全てのお客様にご利用いただけるように努力しておりますので、今後の更新をお待ちいただけますと幸いです。 
+  > 最終的には希望されている全てのお客様にご利用いただけるように努力しておりますので、今後の更新をお待ちいただけますと幸いです。  
+
 <br>
 
 ***
