@@ -1,12 +1,12 @@
 ---
-title: AzureOpenAIServiceのトークン数の上限について
+title: Azure OpenAI Service のトークン数の上限について
 date: 2023-07-19 00:00:00
 categories:
 - Azure OpenAI
 tags:
 - Azure OpenAI
 ---
-この記事は、AzureOpenAIServiceのトークン数の上限についてご紹介します。
+この記事は、Azure OpenAI Service のトークン数の上限についてご紹介します。
 
 <!-- more -->
 <br>
@@ -26,10 +26,11 @@ Azure OpenAI Service では、モデル毎にトークン数の上限値(最大�
 
 ## トークン数の上限値(最大要求)を超えた場合の挙動
 
-現在の内部実装では、トークン数の上限値(最大要求)を超えるトークン数でも処理できる場合がございます。  
-しかし、本内部実装は予告無く変更される可能性があるため、ドキュメントに記載されているトークン数の上限値(最大要求)を超えないよう利用いただくことを強くお勧めします。
+現在の Azure OpenAI Service の動作では、トークン数の上限値(最大要求)を超えるトークンが消費された要求も、エラーが発生せず処理される場合がございます。  
+しかし、この挙動は、あくまで現状の内部動作の関係で生じます。  
+将来的に予告無く変更される可能性があるため、ドキュメントに記載されているトークン数の上限値(最大要求)を超えないよう、利用いただくことを強くお勧めします。
 
-下記ドキュメントでも制限内に留まることを推奨しています。
+この留意事項は、下記ドキュメント抜粋部分でも明記しております。
 
 - [GPT-35-Turbo および GPT-4 モデルの操作方法 : 会話の管理](https://learn.microsoft.com/ja-jp/azure/cognitive-services/openai/how-to/chatgpt?pivots=programming-language-chat-completions#managing-conversations)
   > 注意  
@@ -37,15 +38,16 @@ Azure OpenAI Service では、モデル毎にトークン数の上限値(最大�
 
 ## トークン数の上限値(最大要求)を超えないようにする方法
 
-Azure OpenAI Service と同じモデルを開発している OpenAI 社が提供しているライブラリ (tiktoken) により、指定された文章からトークン数を計算することが可能です。
+Azure OpenAI Service が使用するモデルを開発している OpenAI 社では、指定された文章からモデルが判定するトークン数を計算するライブラリ ( tiktoken ) を提供しています。
 
-下記ドキュメントでは、過去の会話が長くなり、トークンの合計数が上限 (例では 4096 トークン) を超える場合に、一番古い会話を削除しつつ、上限のトークン数以下の会話を実現する方法についてサンプルコードを交えてご紹介しております。  
-API 上でご利用する際の会話の管理の一例として、ご参考にして頂けますと幸いに存じます。
+下記ドキュメントでは、サンプル コードを交えた、ライブラリの使用例を紹介しております。  
+この使用例では、過去の会話が続くことでトークンの合計数が上限 (例では 4096 トークン) を超える場合に、古い会話を削除しつつ、上限のトークン数以下の会話を実現します。  
+モデル利用時にトークンを管理する一例として、ご参考にしていただけますと幸いです。  
 
-- [ChatGPT および GPT-4 モデルの操作方法の説明#会話の管理](https://learn.microsoft.com/ja-jp/azure/cognitive-services/openai/how-to/chatgpt?pivots=programming-language-chat-completions#managing-convesations)
+- [ChatGPT および GPT-4 モデルの操作方法の説明 : 会話の管理](https://learn.microsoft.com/ja-jp/azure/cognitive-services/openai/how-to/chatgpt?pivots=programming-language-chat-completions#managing-convesations)
   > 次のコード サンプルは、OpenAI の tiktoken ライブラリを使用して 4096 トークン数を処理する手法を使用した単純なチャット ループの例を示しています。  
 
-なお、tiktoken 自体はマイクロソフトのサービスの一部ではないため、Azure の技術サポートの範囲外となりますこと、予めご了承いただきますようお願いいたします。
+なお、tiktoken 自体はマイクロソフトのサービスの一部ではないため、Azure の技術サポートの範囲外です。予めご了承ください。  
 
 - [openai/tiktoken (GitHub)](https://github.com/openai/tiktoken)
 
