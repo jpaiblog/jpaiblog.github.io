@@ -16,7 +16,7 @@ tags:
 ***
 ## Fine-tuning (微調整)とは
 
-Azure OpenAI Service では、Fine-tuning (微調整)という機能が提供されております。
+Azure OpenAI Service では、Fine-tuning (微調整)という機能が提供されています。
 
 [Azure OpenAI Service を使用してモデルをカスタマイズする方法](https://learn.microsoft.com/ja-jp/azure/cognitive-services/openai/how-to/fine-tuning?pivots=programming-language-studio)  
 
@@ -24,13 +24,13 @@ Azure OpenAI Service では、Fine-tuning (微調整)という機能が提供さ
 
 ## Fine-tuning (微調整)の現状
 
-2023 年 7 月 14 日現在、 下記ドキュメントにも記載の通り、微調整 (Fine-tuning) されたモデルを実行可能なリージョンは現状ございません (いずれのリージョンも N/A となっています)。
+2023 年 7 月 14 日現在、 下記ドキュメントにも記載の通り、微調整 (Fine-tuning) されたモデルを実行可能なリージョンは現状ありません (いずれのリージョンも N/A となっています)。
 
 - [Model Summary table and region availability : Fine-Tuning Regions](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models#model-summary-table-and-region-availability)  
 
-※日本語版のドキュメントは翻訳の遅れにより情報が古い場合がございますので、最新の情報は英語版のドキュメントをご参照ください。  
+※日本語版のドキュメントは翻訳の遅れにより情報が古い場合がありますので、最新の情報は英語版のドキュメントを参照ください。  
 
-なお、今後 予定されている機能として、「 GPT-3.5 Turbo 」および「 GPT-4 」モデルの Fine-tuning 機能がございます。以下製品開発部門のブログ内で、今年 2023 年後半に向けた段階的なリリースを予定している旨を案内しております。
+なお、今後 予定されている機能として、「 GPT-3.5 Turbo 」および「 GPT-4 」モデルの Fine-tuning 機能があります。以下製品開発部門のブログ内で、今年 2023 年後半に向けた段階的なリリースを予定している旨を案内しています。
 
 - [Announcing Updates to Azure OpenAI Service Models - Microsoft Community Hub](
 https://techcommunity.microsoft.com/t5/ai-cognitive-services-blog/announcing-updates-to-azure-openai-service-models/ba-p/3866757)
@@ -43,22 +43,22 @@ https://techcommunity.microsoft.com/t5/ai-cognitive-services-blog/announcing-upd
 
 
 ## Fine-tuning (微調整)の一般的な位置付け 
-補足事項といたしまして、ここで一般的な Fine-tuning の位置付けについてもご説明します。  
+補足事項といたしまして、ここで一般的な Fine-tuning の位置付けについて説明します。  
 一般的に、微調整 (Fine-tuning) は最後の手段 (last resort) と位置付けられます。  
 Fine-tuning の検討の前に、プロンプトを工夫 (プロンプト エンジニアリングを実施) することが推奨されています。
 - [プロンプト エンジニアリングの概要](https://learn.microsoft.com/ja-jp/azure/cognitive-services/openai/concepts/prompt-engineering)    
 - [プロンプト エンジニアリングの手法](https://learn.microsoft.com/ja-jp/azure/cognitive-services/openai/concepts/advanced-prompt-engineering?pivots=programming-language-chat-completions)  
 
 特に現在は、Fine-tuning が可能な古いモデル (ada, curie 等) よりも高性能とされる gpt-35-turbo (ChatGPT) や GPT-4 などのモデルがリリースされています。    
-これらの新しいモデルでプロンプト エンジニアリングを組み合わせることで、古いモデルで Fine-tuning を行うよりも、高いパフォーマンスが得られることが多くございます。  
+これらの新しいモデルでプロンプト エンジニアリングを組み合わせることで、古いモデルで Fine-tuning を行うよりも、高いパフォーマンスが得られることが多くあります。  
 
 上記の点は以下のセミナー動画でも説明されておりますので、こちらもご覧いただけますと幸いです。   
 - [Azure OpenAI Developers セミナー](https://youtu.be/tFgqdHKsOME)  
-※プロンプト エンジニアリングや Fine-tuning については動画の 22:25 頃から説明されています。  
+※プロンプト エンジニアリングや Fine-tuning については動画の 22:25 頃から確認できます。  
 
 ## Fine-tuning (微調整)の代替手段
 
-Fine-tuning の目的が「内部情報の活用」である場合、Azure OpenAI 以外のサービスと組み合わせた手法が挙げられます。
+Fine-tuning の目的が「内部情報の活用」である場合、Azure OpenAI 以外のサービスと組み合わせた手法があります。
 
 具体的には、「独自データ」を格納した Azure Cognitive Search と組み合わせることにより、Fine-tuning を使用せずに、基本モデルを使用して内部情報に基づいた回答文を生成できます。  
 さらに、回答を提示する際に、Bing AI チャットのように、回答のソースとなるドキュメントへのポインターを表示することも可能です。  

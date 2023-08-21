@@ -39,7 +39,7 @@ Azure OpenAI Service は、前述のアクセス元の制限に加え、プラ�
 プライベート エンドポイントを利用する場合、 Azure OpenAI Service の エンドポイント (*.openai.azure.com )　へのアクセスを仮想ネットワーク内のクライアントに限定することが可能です。  
 ただし、留意点として、Azure OpenAI Studio(https://oai.azure.com/)  へのアクセスでは、プライベートではない一定範囲のパブリック IP アドレスでネットワーク アクセスが必要となります。  
 
-具体的には、Azure OpenAI Studioへアクセスするクライアントマシンのデプロイ先サブネットに紐づく NSG 及び Firewall にて、以下のドキュメントに記載されているサービスタグを許可いただく必要があります。  
+具体的には、Azure OpenAI Studioへアクセスするクライアントマシンのデプロイ先サブネットに紐づく NSG 及び Firewall にて、以下のドキュメントに記載されているサービスタグを許可する必要があります。  
 
 - [Configure Virtual Networks for Azure Cognitive Services](https://learn.microsoft.com/en-us/azure/cognitive-services/cognitive-services-virtual-networks?tabs=portal)
   > Azure OpenAI、LUIS、Speech Services、または言語サービスを使用している場合、CognitiveServicesManagement タグを指定しても、SDK または REST API を使用してサービスを使用できるようになるだけです。   
@@ -54,7 +54,7 @@ Azure OpenAI Service は、前述のアクセス元の制限に加え、プラ�
 <!-- - [Azure OpenAI Service を Private Endpoint 経由で利用する](https://blog.aimless.jp/archives/2023/04/use-azure-openai-service-with-privateendpoint/)  
 ※弊社社員が有志で執筆した記事となります。 -->
 
-Azure OpenAI Studio は、Azure OpenAI Service の機能 (HTTP REST API) を簡便にお試しいただくための、簡易な (サンプル) アプリケーションという扱いになります。   
+Azure OpenAI Studio は、Azure OpenAI Service の機能 (HTTP REST API) を簡便に試すための、簡易な (サンプル) アプリケーションという扱いになります。   
 Azure OpenAI Studio の Web サイトそのものは、特定のユーザーやリソースに紐づかない、パブリックな Web サイトとして公開されています。  
 そのため、Azure OpenAI Studio の Web サイトの表示に必要なリソース (画像や JavaScript 等) のダウンロードはプライベート エンドポイント経由とはなりません。
 
@@ -63,7 +63,7 @@ Azure OpenAI Studio の Web サイトそのものは、特定のユーザーや�
 
 Azure OpenAI Service は、特定の国からのアクセスを制限するような、内部的なアクセス制御を行っておりません。  
 エンドポイントは、パブリックなインターネット経由 (すなわちインターネット上で到達可能なグローバル IP アドレスから) のアクセスを全て許可します。  
-一方で、実際のアクセス可否は、特定の国のネットワーク制限 (例. Great Firewall of China) や法規制に左右されます。特定の地域やネットワーク環境下におけるアクセス可否は、お客様側で現地にてご確認いただく必要がございます。  
+一方で、実際のアクセス可否は、特定の国のネットワーク制限 (例. Great Firewall of China) や法規制に左右されます。特定の地域やネットワーク環境下におけるアクセス可否は、お客様側で現地にてご確認いただく必要があります。  
 ご参考 :  [Azure Virtual WAN とセキュリティ保護付きハブを使用した中国との相互接続](https://learn.microsoft.com/en-us/azure/virtual-wan/interconnect-china)
 
 

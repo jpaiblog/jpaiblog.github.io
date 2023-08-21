@@ -37,7 +37,7 @@ Azure OpenAI Service は申請フォーム 「[Request Access to Azure OpenAI Se
   ![contentFiltering-01](https://jpaiblog.github.io/images/RequestAccess-to-AzureOpenAIService/contentFiltering-01.png "contentFiltering-01")  
 
 ### クォータの引き上げ
-Azure OpenAI には、適用されるクォータによる制限 (モデルごとの 1 分あたりの要求数、モデルごとの 1 分あたりのトークン数、モデル デプロイの最大数 など) があります。 この引き上げを希望する場合、申請フォーム 「[Azure OpenAI Service: Request for Quota Increase](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4xPXO648sJKt4GoXAed-0pURVJWRU4yRTMxRkszU0NXRFFTTEhaT1g1NyQlQCN0PWcu)」 より必要事項を入力して送信ください。[[3]](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits#quotas-and-limits-reference)  
+Azure OpenAI には、適用されるクォータによる制限があります。 この引き上げを希望する場合、Azure AI Studio の [管理 > クォータ > Request quota] の申請フォーム 「[Azure OpenAI Service: Request for Quota Increase](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4xPXO648sJKt4GoXAed-0pURVJWRU4yRTMxRkszU0NXRFFTTEhaT1g1NyQlQCN0PWcu)」 より必要事項を入力して送信ください。[[3]](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/quota?tabs=rest#view-and-request-quota)  
 
 - 2023/05/23現在の状況    
   > Azure OpenAI Service は世界中から非常に高い需要が続いています。  
@@ -45,12 +45,7 @@ Azure OpenAI には、適用されるクォータによる制限 (モデルご�
   > 受付が再開される時期については、今後の更新をお待ちいただけますと幸いです。  
   > 最新の状況については[Azure OpenAI Service のクォータと制限](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits#how-to-request-increases-to-the-default-quotas-and-limits)のドキュメントをご参照ください。[[5]](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits#how-to-request-increases-to-the-default-quotas-and-limits)  
 
-### リソース作成数
-
-Azure OpenAI には、各リージョンに対しリソースの作成数に制限があります。 この引き上げを希望する場合、申請フォーム 「[Azure OpenAI Service: Request for Resource Increase](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4xPXO648sJKt4GoXAed-0pUN05FTFMzOTBMTFg1TzZJR01RSzdOU0M5MyQlQCN0PWcu)」 より必要事項を入力して送信ください。[[3]](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits#quotas-and-limits-reference)  
-
 ### GPT-4 モデル
-
 GTP-4 モデルを利用する場合、申請フォーム 「[Azure OpenAI GPT-4 Waitlist](https://aka.ms/oai/get-gpt4)」 より必要事項を入力して送信ください。[[4]](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models#gpt-4-models)
 
 - GPT-4の申請に関する FAQ   
@@ -59,6 +54,18 @@ GTP-4 モデルを利用する場合、申請フォーム 「[Azure OpenAI GPT-4
   > 現在はリソースを増強して既存顧客へ提供するサービスの品質を維持しながら、順次新しいお客様を受け入れています。  
   > そのため、大変恐れ入りますがリクエストが承認される具体的な時期 (リードタイム) を事前にお約束することは難しい状況です。  
   > 最終的には希望されている全てのお客様にご利用いただけるように努力しておりますので、今後の更新をお待ちいただけますと幸いです。  
+
+### DALL-E モデル
+DALL-E モデルを利用する場合、申請フォーム 「[Request Access to Azure OpenAI Service](https://aka.ms/oai/access)」 より必要事項を入力して送信ください。[[1]](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/limited-access?context=%2Fazure%2Fcognitive-services%2Fopenai%2Fcontext%2Fcontext)  
+既存の Azure OpenAI のお客様であっても申請時に、DALL-E へのアクセスを申請していなかった場合には、再度申請フォームに入力する必要あります。
+
+- [クイックスタート: Azure OpenAI Service を使用して画像の生成を開始する](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/dall-e-quickstart?pivots=programming-language-studio)   
+  > 現時点では、このサービスへのアクセスは申請によってのみ許可されます。  
+  > Azure OpenAI へのアクセスを申請するには、https://aka.ms/oai/access のフォームに入力してください。  
+  > 既存の Azure OpenAI のお客様は、DALL-E にアクセスするためにフォームに再入力する必要があります。  
+
+### Azure OpenAI on your data のプライベート ネットワークのサポート
+Azure OpenAI on your dataにてプライベートネットワークの利用を可能にする場合、申請フォーム 「[Apply Azure Cognitive Search Private Endpoint Request for Azure OpenAI on your data](https://aka.ms/applyacsvpnaoaionyourdata)  」 より必要事項を入力して送信ください。[[7]](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/use-your-data#virtual-network-support--private-network-support)  
 
 <br>
 
@@ -69,13 +76,15 @@ GTP-4 モデルを利用する場合、申請フォーム 「[Azure OpenAI GPT-4
 
 - [[2]: Data, privacy, and security for Azure OpenAI Service - Azure Cognitive Services | Microsoft Learn](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy?context=%2Fazure%2Fcognitive-services%2Fopenai%2Fcontext%2Fcontext)  
 
-- [[3]: Azure OpenAI Service quotas and limits - Azure Cognitive Services | Microsoft Learn](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits#quotas-and-limits-reference)  
+- [[3]: Manage Azure OpenAI Service quota - Azure AI services | Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/quota?tabs=rest#view-and-request-quota)  
 
 - [[4]: Azure OpenAI Service models - Azure OpenAI | Microsoft Learn](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models#gpt-4-models)  
 
 - [[5]: Azure OpenAI Service quotas and limits - Azure Cognitive Services | Microsoft Learn](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits#how-to-request-increases-to-the-default-quotas-and-limits)   
 
 - [[6]: How to use content filters (preview) with Azure OpenAI Service - Azure OpenAI | Microsoft Learn](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/content-filters)  
+
+- [[7]: Using your data with Azure OpenAI Service - Azure OpenAI | Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/use-your-data#virtual-network-support--private-network-support)  
 
 - 申請関連の FAQ については、以下のドキュメントも参考になります。  
   [Cognitive Services の制限付きアクセス機能 - Azure Cognitive Services | Microsoft Learn](https://learn.microsoft.com/ja-jp/azure/cognitive-services/cognitive-services-limited-access#faq-about-limited-access)
@@ -91,7 +100,8 @@ GTP-4 モデルを利用する場合、申請フォーム 「[Azure OpenAI GPT-4
 `変更履歴`  
 `2023/04/21 created by Kudou`  
 `2023/05/23 update  by Kudou`  
-`2023/07/04 update  by Kudou`  
+`2023/07/04 update  by Kudou`   
+`2023/08/18 update  by Kudou`  
 
 ※ 本記事は 「[jpaiblog について](https://jpaiblog.github.io/blog/2020/01/01/about-jpaiblog/)」 の留意事項に準じます。  
 ※ 併せて 「[ホームページ](https://jpaiblog.github.io/blog/)」 および 「[記事一覧](https://jpaiblog.github.io/blog/archives/)」 もご参照いただければ幸いです。  
