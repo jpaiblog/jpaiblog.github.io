@@ -42,18 +42,24 @@ Azure OpenAI には、適用されるクォータによる制限があります�
 - 2023/05/23現在の状況    
   > Azure OpenAI Service は世界中から非常に高い需要が続いています。  
   > そのため、大変恐れ入りますがリソースまたはクォータの制限を引き上げる要求は、現在受付を停止しています。  
-  > 受付が再開される時期については、今後の更新をお待ちいただけますと幸いです。  
-  > 最新の状況については[Azure OpenAI Service のクォータと制限](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits#how-to-request-increases-to-the-default-quotas-and-limits)のドキュメントをご参照ください。[[5]](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits#how-to-request-increases-to-the-default-quotas-and-limits)  
+  > 受付が再開される時期については、今後の更新をお待ちいただけますと幸いです。 
+
+- 2023/10/19現在の状況    
+  > クォータの引き上げ要求の受付は再開されました。  
+  > 最新の状況については [Azure OpenAI Service のクォータと制限](https://learn.microsoft.com/en-us/azure/ai-services/openai/quotas-limits#how-to-request-increases-to-the-default-quotas-and-limits)のドキュメントをご参照ください。[[5]](https://learn.microsoft.com/en-us/azure/ai-services/openai/quotas-limits#how-to-request-increases-to-the-default-quotas-and-limits) 
 
 ### GPT-4 モデル
-GTP-4 モデルを利用する場合、申請フォーム 「[Azure OpenAI GPT-4 Waitlist](https://aka.ms/oai/get-gpt4)」 より必要事項を入力して送信ください。[[4]](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models#gpt-4-models)
 
-- GPT-4の申請に関する FAQ   
-  > Q. GPT-4 の利用を申請しましたが、まだ承認されていません。いつ利用可能になりますか？  
-  > A. Azure OpenAI Service の GPT-4 は世界中から非常に高い需要が続いています。  
-  > 現在はリソースを増強して既存顧客へ提供するサービスの品質を維持しながら、順次新しいお客様を受け入れています。  
-  > そのため、大変恐れ入りますがリクエストが承認される具体的な時期 (リードタイム) を事前にお約束することは難しい状況です。  
-  > 最終的には希望されている全てのお客様にご利用いただけるように努力しておりますので、今後の更新をお待ちいただけますと幸いです。  
+以前は、GPT-4モデルを利用するためには申請が必要でしたが、2023年10月19日現在、申請は不要となりました。しかし、GPT-4モデルへの高い需要のため、Azure OpenAI Serviceが利用できるすべてのリージョンでGPT-4モデルが利用可能なわけではなく、利用できるリージョンは限られています。使用中のリージョンでGPT-4が表示されない場合は、時間を置いて再度確認をお願いします。[[4]](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models#gpt-4-models) 
+
+~~GTP-4 モデルを利用する場合、申請フォーム 「[Azure OpenAI GPT-4 Waitlist](https://aka.ms/oai/get-gpt4)」 より必要事項を入力して送信ください。~~
+
+~~GPT-4の申請に関する FAQ   
+Q. GPT-4 の利用を申請しましたが、まだ承認されていません。いつ利用可能になりますか？  
+A. Azure OpenAI Service の GPT-4 は世界中から非常に高い需要が続いています。  
+現在はリソースを増強して既存顧客へ提供するサービスの品質を維持しながら、順次新しいお客様を受け入れています。  
+そのため、大変恐れ入りますがリクエストが承認される具体的な時期 (リードタイム) を事前にお約束することは難しい状況です。  
+最終的には希望されている全てのお客様にご利用いただけるように努力しておりますので、今後の更新をお待ちいただけますと幸いです。~~  
 
 ### DALL-E モデル
 DALL-E モデルを利用する場合、申請フォーム 「[Request Access to Azure OpenAI Service](https://aka.ms/oai/access)」 より必要事項を入力して送信ください。[[1]](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/limited-access?context=%2Fazure%2Fcognitive-services%2Fopenai%2Fcontext%2Fcontext)  
@@ -78,9 +84,9 @@ Azure OpenAI on your dataにてプライベートネットワークの利用を�
 
 - [[3]: Manage Azure OpenAI Service quota - Azure AI services | Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/quota?tabs=rest#view-and-request-quota)  
 
-- [[4]: Azure OpenAI Service models - Azure OpenAI | Microsoft Learn](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models#gpt-4-models)  
+- [[4]: Azure OpenAI Service models - Azure OpenAI | Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models#gpt-4-models)  
 
-- [[5]: Azure OpenAI Service quotas and limits - Azure Cognitive Services | Microsoft Learn](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits#how-to-request-increases-to-the-default-quotas-and-limits)   
+- [[5]: Azure OpenAI Service quotas and limits - Azure Cognitive Services | Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-services/openai/quotas-limits#how-to-request-increases-to-the-default-quotas-and-limits)   
 
 - [[6]: How to use content filters (preview) with Azure OpenAI Service - Azure OpenAI | Microsoft Learn](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/content-filters)  
 
@@ -101,7 +107,8 @@ Azure OpenAI on your dataにてプライベートネットワークの利用を�
 `2023/04/21 created by Kudou`  
 `2023/05/23 update  by Kudou`  
 `2023/07/04 update  by Kudou`   
-`2023/08/18 update  by Kudou`  
+`2023/08/18 update  by Kudou`   
+`2023/10/19 update  by Kudou`  
 
 ※ 本記事は 「[jpaiblog について](https://jpaiblog.github.io/blog/2020/01/01/about-jpaiblog/)」 の留意事項に準じます。  
 ※ 併せて 「[ホームページ](https://jpaiblog.github.io/blog/)」 および 「[記事一覧](https://jpaiblog.github.io/blog/archives/)」 もご参照いただければ幸いです。  
