@@ -92,10 +92,7 @@ https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/quota?tabs=res
 
 - [Azure OpenAI Service のクォータを管理する - Azure AI services | Microsoft Learn](
 https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/quota?tabs=rest#introduction-to-quota )
-> デプロイが作成されると、割り当てられた TPM は、推論要求で適用される TPM (Tokens-per-Minute) のレート制限に直接マップされます。 1 分あたりの要求 (RPM) レート制限も適用され、その値は次の比率を使用して TPM 割り当てに比例して設定されます。<br><br> 1000 TPM あたり 6 RPM。<br>
-(*中略*)<br>
-<br>
-RPM レート制限は、時間の経過と同時に受信した要求の数に基づいています。 <br>レート制限では、1 分間に要求が均等に分散されることを想定しています。 <br>この平均フローが維持されない場合、1 分間測定しても制限が満たされない場合でも、要求は 429 応答を受け取る可能性があります。<br>この動作を実装するために、Azure OpenAI Service は、短い時間 (通常は 1 秒または 10 秒) にわたる受信要求の速度を評価します。<br>その間に受信した要求の数が設定された RPM 制限で予想される数を超えた場合、新しい要求は次の評価期間まで 429 応答コードを受け取ります。<br>たとえば、Azure OpenAI が 1 秒間隔で要求レートを監視している場合、1 秒ごとに 10 件を超える要求を受信すると、600 RPM デプロイでレート制限が発生します (1 分あたり 600 件の要求 = 1 秒あたり 10 件の要求)。
+> デプロイが作成されると、割り当てられた TPM は、推論要求で適用される TPM (Tokens-per-Minute) のレート制限に直接マップされます。 1 分あたりの要求 (RPM) レート制限も適用され、その値は次の比率を使用して TPM 割り当てに比例して設定されます。<br><br> 1000 TPM あたり 6 RPM。<br>(*中略*)<br><br>RPM レート制限は、時間の経過と同時に受信した要求の数に基づいています。 <br>レート制限では、1 分間に要求が均等に分散されることを想定しています。 <br>この平均フローが維持されない場合、1 分間測定しても制限が満たされない場合でも、要求は 429 応答を受け取る可能性があります。<br>この動作を実装するために、Azure OpenAI Service は、短い時間 (通常は 1 秒または 10 秒) にわたる受信要求の速度を評価します。<br>その間に受信した要求の数が設定された RPM 制限で予想される数を超えた場合、新しい要求は次の評価期間まで 429 応答コードを受け取ります。<br>たとえば、Azure OpenAI が 1 秒間隔で要求レートを監視している場合、1 秒ごとに 10 件を超える要求を受信すると、600 RPM デプロイでレート制限が発生します (1 分あたり 600 件の要求 = 1 秒あたり 10 件の要求)。
 
 - [レート制限のベスト プラクティス](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/quota?tabs=rest#rate-limit-best-practices) 
 
