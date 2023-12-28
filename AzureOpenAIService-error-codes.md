@@ -76,15 +76,14 @@ Microsoft Entra ID 認証をご使用の場合は、リクエストを行うユ�
 ## HTTP 429 エラー / Too Many Requests
 
 このエラーは、定義されたレート制限を超過していることや、バックエンドサービスがスケーリング中であることを示します。<br/>
-原因として、クライアント側からのリクエストのレート制限超過、クライアント側のワークロードの急激な変化の可能性が挙げられます。
+原因として、モデルデプロイに割り当てられているクォーターの TPM (Tokens-per-Minute) が少ない場合や、Azure OpenAI サービスが需要に合わせてスケールアップしているときにスローされ、必要なスケールに達しなかった一時的なエラーの可能性が挙げられます。
 
 **対処方法：** 
-- モデルデプロイに対して割り当てている TPM (Tokens-per-Minute) のレート制限の変更を検討します。
+- モデルデプロイに対して割り当てている TPM のレート制限の変更を検討します。<br />
 [Azure OpenAI Service のクォータを管理する - Azure AI services | Microsoft Learn](
 https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/quota?tabs=rest#assign-quota )
 > デプロイ後は、Azure AI Studio の [管理>デプロイ] で [デプロイの編集] を選択して、TPM の割り当てを調整できます。 この選択は、新しいクォータ管理エクスペリエンスの [管理>クォータ] で変更することもできます。 
-- Azure OpenAI サービスが需要に合わせてスケールアップしているときにスローされ、必要なスケールに達しなかった一時的なエラーの可能性があります。
-その為、429エラーがスローされたときに返される時間を空けて再度実行していただくことが必要となります。<br />
+- 429エラーがスローされたときに提示される時間を空けて再度実行していただくことが必要となります。<br />
 [Azure サービスの再試行ガイダンス - Best practices for cloud applications | Microsoft Learn](https://learn.microsoft.com/ja-jp/azure/architecture/best-practices/retry-service-specific )
 > 429 エラーの場合は、Retry-After ヘッダーに示されている時間が経過した後でのみ再試行してください。
 
