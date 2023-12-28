@@ -79,7 +79,25 @@ Microsoft Entra ID 認証をご使用の場合は、リクエストを行うユ�
 原因として、クライアント側からのリクエストのレート制限超過、クライアント側のワークロードの急激な変化の可能性が挙げられます。
 
 **対処方法：** 
-- [レート制限内に収まるようにするための一般的なベスト プラクティス](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/quotas-limits#general-best-practices-to-remain-within-rate-limits) を参照します。
+- モデルデプロイに対して割り当てている TPM (Tokens-per-Minute) のレート制限の変更を検討します。
+[Azure OpenAI Service のクォータを管理する - Azure AI services | Microsoft Learn](
+https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/quota?tabs=rest#assign-quota )
+> デプロイ後は、Azure AI Studio の [管理>デプロイ] で [デプロイの編集] を選択して、TPM の割り当てを調整できます。 この選択は、新しいクォータ管理エクスペリエンスの [管理>クォータ] で変更することもできます。 
+- Azure OpenAI サービスが需要に合わせてスケールアップしているときにスローされ、必要なスケールに達しなかった一時的なエラーの可能性があります。
+その為、429エラーがスローされたときに返される時間を空けて再度実行していただくことが必要となります。<br />
+[Azure サービスの再試行ガイダンス - Best practices for cloud applications | Microsoft Learn](https://learn.microsoft.com/ja-jp/azure/architecture/best-practices/retry-service-specific )
+> 429 エラーの場合は、Retry-After ヘッダーに示されている時間が経過した後でのみ再試行してください。
+
+**参考情報：** 
+
+- [Azure OpenAI Service のクォータを管理する - Azure AI services | Microsoft Learn](
+https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/quota?tabs=rest#introduction-to-quota )
+> デプロイが作成されると、割り当てられた TPM は、推論要求で適用される TPM (Tokens-per-Minute) のレート制限に直接マップされます。 1 分あたりの要求 (RPM) レート制限も適用され、その値は次の比率を使用して TPM 割り当てに比例して設定されます。<br><br> 1000 TPM あたり 6 RPM。<br>
+(*中略*)<br>
+<br>
+RPM レート制限は、時間の経過と同時に受信した要求の数に基づいています。 <br>レート制限では、1 分間に要求が均等に分散されることを想定しています。 <br>この平均フローが維持されない場合、1 分間測定しても制限が満たされない場合でも、要求は 429 応答を受け取る可能性があります。<br>この動作を実装するために、Azure OpenAI Service は、短い時間 (通常は 1 秒または 10 秒) にわたる受信要求の速度を評価します。<br>その間に受信した要求の数が設定された RPM 制限で予想される数を超えた場合、新しい要求は次の評価期間まで 429 応答コードを受け取ります。<br>たとえば、Azure OpenAI が 1 秒間隔で要求レートを監視している場合、1 秒ごとに 10 件を超える要求を受信すると、600 RPM デプロイでレート制限が発生します (1 分あたり 600 件の要求 = 1 秒あたり 10 件の要求)。
+
+- [レート制限のベスト プラクティス](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/quota?tabs=rest#rate-limit-best-practices) 
 
 ***
 `変更履歴`  
