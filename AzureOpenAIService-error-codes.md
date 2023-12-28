@@ -12,7 +12,6 @@ tags:
 <br>
 
 ***
-
 ## HTTP 400 エラー / Bad Request
 
 このエラーは、クライアント側から送信したリクエストに問題があることを示します。<br/>
@@ -22,7 +21,7 @@ tags:
 - クライアント側から送信したプロンプトを見直してください（Jsonペイロードの形式や、パラメーターのミススペルなど）
 - [コンテンツのフィルター処理](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/concepts/content-filter?tabs=warning%2Cpython) の設定を確認し、必要に応じてレベルを調整してください。
 
-
+***
 ## HTTP 401 エラー / Unauthorized
 
 このエラーは、認証に問題が発生していることを示します。 <br/>
@@ -41,6 +40,7 @@ Microsoft Entra ID 認証をご使用の場合は、リクエストを行うユ�
  
 - [Cognitive Services User ロールに自分自身を割り当てる | マネージド ID を使用して Azure OpenAI Service を構成する方法](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/managed-identity) 
 
+***
 ## HTTP 403 エラー / Forbidden
 
 このエラーは、ネットワーク制限により生じている可能性があります。
@@ -49,20 +49,20 @@ Microsoft Entra ID 認証をご使用の場合は、リクエストを行うユ�
 
 - [Azure OpenAI Service リソースに設定したネットワーク設定](https://learn.microsoft.com/ja-jp/azure/ai-services/cognitive-services-virtual-networks?context=%2Fazure%2Fai-services%2Fopenai%2Fcontext%2Fcontext&tabs=portal#manage-default-network-access-rules) を確認します。
 
+***
 ## HTTP 404 エラー / Not Found 
 
 このエラーは、クライアント側の要求で指定されたリソースが、サーバー側で見つけられなかったことを示します。 <br />
 原因として、API エンドポイントが正しくないといったことが挙げられます。 
  
 **対処方法：**
-
-
 - [API リファレンス](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/reference) や SDK リファレンスを参照し、API エンドポイントの指定が正しいことを確認します。
 - エンドポイント指定時の必須パラメーターを確認します。
 （リソース名、デプロイメントID、API バージョン（後述））
 - API バージョン（モデルバージョンとは異なります）が正しいかどうかをご確認ください。 (API エンドポイントは、指定された要求が正しく最新であることを確認するために、バージョン管理に api-version クエリ パラメーターを使用しており、サービス API のすべてのバージョンは、YYYY-MM-DD の日付構造になっています。 )
 > 例）https:// (中略) /openai/deployments/my-first-deployment/completions?api-version=**2022-12-01** 
 
+***
 ## HTTP 408 エラー / Request Timeout 
 
 このエラーは、サーバー側の応答がない、ネットワーク接続が不安定などでリクエストがタイムアウトしたことを示します。<br /> 
@@ -73,6 +73,7 @@ Microsoft Entra ID 認証をご使用の場合は、リクエストを行うユ�
 - 大きなクエリが送信されている場合は、要求を複数の小さなクエリに分割することをご検討ください。これにより、Azure OpenAI は情報をより効率的に処理することができ、タイムアウトの可能性が低減します。
 - Chat Completions API を使用している場合は、API リクエストを行う際に stream=true を設定することを検討してください。これにより、サーバー側は、部分的な結果が利用可能になったときに送信できるため、タイムアウトの可能性が低減します。 
 
+***
 ## HTTP 429 エラー / Too Many Requests
 
 このエラーは、定義されたレート制限を超過していることや、バックエンドサービスがスケーリング中であることを示します。<br/>
@@ -88,7 +89,6 @@ https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/quota?tabs=res
 > 429 エラーの場合は、Retry-After ヘッダーに示されている時間が経過した後でのみ再試行してください。
 
 **参考情報：** 
-
 - [Azure OpenAI Service のクォータを管理する - Azure AI services | Microsoft Learn](
 https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/quota?tabs=rest#introduction-to-quota )
 > デプロイが作成されると、割り当てられた TPM は、推論要求で適用される TPM (Tokens-per-Minute) のレート制限に直接マップされます。 1 分あたりの要求 (RPM) レート制限も適用され、その値は次の比率を使用して TPM 割り当てに比例して設定されます。<br><br> 1000 TPM あたり 6 RPM。<br>(*中略*)<br><br>RPM レート制限は、時間の経過と同時に受信した要求の数に基づいています。 <br>レート制限では、1 分間に要求が均等に分散されることを想定しています。 <br>この平均フローが維持されない場合、1 分間測定しても制限が満たされない場合でも、要求は 429 応答を受け取る可能性があります。<br>この動作を実装するために、Azure OpenAI Service は、短い時間 (通常は 1 秒または 10 秒) にわたる受信要求の速度を評価します。<br>その間に受信した要求の数が設定された RPM 制限で予想される数を超えた場合、新しい要求は次の評価期間まで 429 応答コードを受け取ります。<br>たとえば、Azure OpenAI が 1 秒間隔で要求レートを監視している場合、1 秒ごとに 10 件を超える要求を受信すると、600 RPM デプロイでレート制限が発生します (1 分あたり 600 件の要求 = 1 秒あたり 10 件の要求)。
