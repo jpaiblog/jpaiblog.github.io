@@ -14,7 +14,7 @@ Azure OpenAI 関連の申請について、以下にご説明します。
 ***
 ## Azure OpenAI Service の利用開始時に行う申請
 
-Azure OpenAI Service は申請フォーム 「[Request Access to Azure OpenAI Service](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR7en2Ais5pxKtso_Pz4b1_xUOFA5Qk1UWDRBMjg0WFhPMkIzTzhKQ1dWNyQlQCN0PWcu)」 より必要事項を入力して送信、承認されたサブスクリプションにて利用が可能になります。[[1]](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/limited-access?context=%2Fazure%2Fcognitive-services%2Fopenai%2Fcontext%2Fcontext)  
+Azure OpenAI Service は申請フォーム 「[Request Access to Azure OpenAI Service](https://aka.ms/oai/access)」 より必要事項を入力して送信、承認されたサブスクリプションにて利用が可能になります。[[1]](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/limited-access)  
 
 申請状況に関する確認はメールアドレス csgate@microsoft.com にて受け付けています。 この宛先は Azure OpenAI Service の利用申請を管理・レビューしている米国本社内の専用部門となり、公平性と独立性のために、技術サポート部門を含めた各国の他の部門はレビュープロセスに直接介入できません。 そのため、当該メールでのご質問は **英語のみ** となる点にご留意ください。  
 
@@ -24,16 +24,21 @@ Azure OpenAI Service は申請フォーム 「[Request Access to Azure OpenAI Se
 ## 用途に応じて行う申請
 
 ### 追加のユース ケース
-利用開始申請時に選択したユース ケースとは別に、追加でユース ケースを申請する場合、申請フォーム 「[Azure OpenAI Additional Use Case Form](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR7en2Ais5pxKtso_Pz4b1_xUM003VEJPRjRSOTZBRVZBV1E5N1lWMk1XUyQlQCN0PWcu)」 より必要事項を入力して送信ください。[[1]](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/limited-access?context=%2Fazure%2Fcognitive-services%2Fopenai%2Fcontext%2Fcontext)
+利用開始申請時に選択したユース ケースとは別に、追加でユース ケースを申請する場合、申請フォーム 「[Azure OpenAI Additional Use Case Form](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR7en2Ais5pxKtso_Pz4b1_xUM003VEJPRjRSOTZBRVZBV1E5N1lWMk1XUyQlQCN0PWcu)」 より必要事項を入力して送信ください。[[1]](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/limited-access)
 
 ### オプトアウト
-弊社が定める責任ある AI の原則に従って、倫理的・社会的に問題があると考えられる利用 (abuse) を防止するために、人間によるレビューが行われる場合があります。これは要件を満たす場合にはオプトアウトすることが可能です。申請フォーム 「[Azure OpenAI Limited Access Review: Modified Content Filters and Abuse Monitoring](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR7en2Ais5pxKtso_Pz4b1_xURE01NDY1OUhBRzQ3MkQxMUhZSE1ZUlJKTiQlQCN0PWcu)」 より必要事項を入力して送信ください。[[2]](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy?context=%2Fazure%2Fcognitive-services%2Fopenai%2Fcontext%2Fcontext#preventing-abuse-and-harmful-content-generation)  
+弊社が定める責任ある AI の原則に従って、倫理的・社会的に問題があると考えられる利用 (abuse) を防止するために、人間によるレビューが行われる場合があります。これは要件を満たす場合にはオプトアウトすることが可能です。以下の申請フォームより必要事項を入力して送信ください。 [[1]](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/limited-access)  
+
+- コンテンツフィルターの変更：[Azure OpenAI Limited Access Review:  Modified Content Filtering](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR7en2Ais5pxKtso_Pz4b1_xUMlBQNkZMR0lFRldORTdVQzQ0TEI5Q1ExOSQlQCN0PWcu) 
+
+- 不正使用監視の変更：[Azure OpenAI Limited Access Review:
+Modified Abuse Monitoring](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR7en2Ais5pxKtso_Pz4b1_xUOE9MUTFMUlpBNk5IQlZWWkcyUEpWWEhGOCQlQCN0PWcu)
 
 - オプトアウト申請に関する FAQ   
   > Q. オプトアウトを申請して承認されましたが、きちんと反映されているか確認したいです。確認方法はありますか？  
   > A. はい、確認方法があります。   
-  > Abuse Monitoring は"ContentLogging"の項目が"false"となっているかを参照することで確認可能です。[[2]](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy#how-can-a-customer-verify-if-data-storage-for-abuse-monitoring-is-off)  
-  > Content Filteringの停止はAzure OpenAI Studio [管理]->[Content Filters]よりFilteringをオフに設定可能かどうかで確認可能です。[[6]](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/content-filters)  
+  > Abuse Monitoring は "ContentLogging" の項目が"false"となっているかを参照することで確認可能です。[[2]](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy#how-can-a-customer-verify-if-data-storage-for-abuse-monitoring-is-off)  
+  > Content Filtering については Azure OpenAI Studio [管理]->[Content Filters]よりFilteringをオフに設定可能かどうかで確認可能です。[[6]](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/content-filters#configuring-content-filters-via-azure-openai-studio-preview)  
   ![contentFiltering-01](https://jpaiblog.github.io/images/RequestAccess-to-AzureOpenAIService/contentFiltering-01.png "contentFiltering-01")  
 
 ### クォータの引き上げ
@@ -50,35 +55,32 @@ Azure OpenAI には、適用されるクォータによる制限があります�
 
 ### GPT-4 モデル
 
-以前は、GPT-4モデルを利用するためには申請が必要でしたが、2023年10月19日現在、申請は不要となりました。しかし、GPT-4モデルへの高い需要のため、Azure OpenAI Serviceが利用できるすべてのリージョンでGPT-4モデルが利用可能なわけではなく、利用できるリージョンは限られています。使用中のリージョンでGPT-4が表示されない場合は、時間を置いて再度確認をお願いします。[[4]](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models#gpt-4-models) 
+以前は、GPT-4モデルを利用するためには申請が必要でしたが、2023年10月19日現在、申請は不要となりました。しかし、GPT-4モデルへの高い需要のため、Azure OpenAI Serviceが利用できるすべてのリージョンでGPT-4モデルが利用可能なわけではなく、利用できるリージョンは限られています[[4]](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models) 。使用中のリージョンでGPT-4が表示されない場合は、時間を置いて再度確認をお願いします。
 
-~~GTP-4 モデルを利用する場合、申請フォーム 「[Azure OpenAI GPT-4 Waitlist](https://aka.ms/oai/get-gpt4)」 より必要事項を入力して送信ください。~~
+### 各種モデル
 
-~~GPT-4の申請に関する FAQ   
-Q. GPT-4 の利用を申請しましたが、まだ承認されていません。いつ利用可能になりますか？  
-A. Azure OpenAI Service の GPT-4 は世界中から非常に高い需要が続いています。  
-現在はリソースを増強して既存顧客へ提供するサービスの品質を維持しながら、順次新しいお客様を受け入れています。  
-そのため、大変恐れ入りますがリクエストが承認される具体的な時期 (リードタイム) を事前にお約束することは難しい状況です。  
-最終的には希望されている全てのお客様にご利用いただけるように努力しておりますので、今後の更新をお待ちいただけますと幸いです。~~  
+以下のモデルを利用する場合には、申請フォーム「[Request Access to Azure OpenAI Service](https://aka.ms/oai/access)」 で Azure OpenAI Service 利用を申請する際、明示的に各モデルの利用を選択して送信ください。[[1]](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/limited-access)
 
-### DALL-E モデル
-DALL-E モデルを利用する場合、申請フォーム 「[Request Access to Azure OpenAI Service](https://aka.ms/oai/access)」 より必要事項を入力して送信ください。[[1]](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/limited-access?context=%2Fazure%2Fcognitive-services%2Fopenai%2Fcontext%2Fcontext)  
-既存の Azure OpenAI のお客様であっても申請時に、DALL-E へのアクセスを申請していなかった場合には、再度申請フォームに入力する必要あります。
+- GPT-4 Turbo with Vision モデル
+- DALL-E モデル
+- Whisper モデル
 
-- [クイックスタート: Azure OpenAI Service を使用して画像の生成を開始する](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/dall-e-quickstart?pivots=programming-language-studio)   
-  > 現時点では、このサービスへのアクセスは申請によってのみ許可されます。  
-  > Azure OpenAI へのアクセスを申請するには、https://aka.ms/oai/access のフォームに入力してください。  
-  > 既存の Azure OpenAI のお客様は、DALL-E にアクセスするためにフォームに再入力する必要があります。  
+  ![models-01](https://jpaiblog.github.io/images/RequestAccess-to-AzureOpenAIService/models-01.png "models-01")
+
+なお、これらモデルを利用できるリージョン（可用性）については、以下のドキュメントを参照してください。
+
+[Azure OpenAI Service モデル](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models)
+
 
 ### Azure OpenAI on your data のプライベート ネットワークのサポート
-Azure OpenAI on your dataにてプライベートネットワークの利用を可能にする場合、申請フォーム 「[Apply Azure Cognitive Search Private Endpoint Request for Azure OpenAI on your data](https://aka.ms/applyacsvpnaoaionyourdata)  」 より必要事項を入力して送信ください。[[7]](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/use-your-data#virtual-network-support--private-network-support)  
+Azure OpenAI on your dataにてプライベートネットワークの利用を可能にする場合、申請フォーム 「[Apply Azure AI Search Private Endpoint Request for Azure OpenAI on Your Data](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRw_T3EIZ1KNCuv_1duLJBgpUMUcwV1Y5QjI3UTVTMkhSVUo3R09NNVQxSyQlQCN0PWcu)  」 より必要事項を入力して送信ください。[[7]](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/use-your-data-securely#inbound-security-networking-1)  
 
 <br>
 
 ***
 ## 関連ドキュメント
 
-- [[1]: Limited access to Azure OpenAI Service - Azure Cognitive Services | Microsoft Learn](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/limited-access?context=%2Fazure%2Fcognitive-services%2Fopenai%2Fcontext%2Fcontext)  
+- [[1]: Limited access to Azure OpenAI Service - Azure Cognitive Services | Microsoft Learn](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/limited-access)  
 
 - [[2]: Data, privacy, and security for Azure OpenAI Service - Azure Cognitive Services | Microsoft Learn](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy?context=%2Fazure%2Fcognitive-services%2Fopenai%2Fcontext%2Fcontext)  
 
@@ -90,7 +92,7 @@ Azure OpenAI on your dataにてプライベートネットワークの利用を�
 
 - [[6]: How to use content filters (preview) with Azure OpenAI Service - Azure OpenAI | Microsoft Learn](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/content-filters)  
 
-- [[7]: Using your data with Azure OpenAI Service - Azure OpenAI | Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/use-your-data#virtual-network-support--private-network-support)  
+- [[7]: Using your data with Azure OpenAI securely - Azure OpenAI | Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/use-your-data-securely#inbound-security-networking-1)  
 
 - 申請関連の FAQ については、以下のドキュメントも参考になります。  
   [Cognitive Services の制限付きアクセス機能 - Azure Cognitive Services | Microsoft Learn](https://learn.microsoft.com/ja-jp/azure/cognitive-services/cognitive-services-limited-access#faq-about-limited-access)
@@ -108,7 +110,8 @@ Azure OpenAI on your dataにてプライベートネットワークの利用を�
 `2023/05/23 update  by Kudou`  
 `2023/07/04 update  by Kudou`   
 `2023/08/18 update  by Kudou`   
-`2023/10/19 update  by Kudou`  
+`2023/10/19 update  by Kudou`   
+`2024/01/05 update  by Uehara`  
 
 ※ 本記事は 「[jpaiblog について](https://jpaiblog.github.io/blog/2020/01/01/about-jpaiblog/)」 の留意事項に準じます。  
 ※ 併せて 「[ホームページ](https://jpaiblog.github.io/blog/)」 および 「[記事一覧](https://jpaiblog.github.io/blog/archives/)」 もご参照いただければ幸いです。  
