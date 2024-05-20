@@ -32,11 +32,11 @@ Translator Text API の翻訳文字数の確認方法と、参考情報をご紹
 (6) グラフの中で確認したい時点にカーソルをあてると、その時間帯（指定した時間の粒度単位）に絞って、翻訳文字数を表示することができます。  
 ![char-translated-1-6](https://jpaiblog.github.io/images/TranslatorTextAPI-char-translated/char1-6.jpg "char-translated-1-6")  
 
-翻訳文字数のグラフを表示する際に設定したメトリック [Characters Translated] の説明は、下記の公開ドキュメントを参照ください。  
+翻訳文字数のグラフを表示する際に設定したメトリック [Text Characters Translated] の説明は、下記の公開ドキュメントを参照ください。  
 
-- [Supported metrics with Azure Monitor #Microsoft.CognitiveServices/accounts](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/metrics-supported#microsoftcognitiveservicesaccounts)
-> Characters Translated
->> Total number of characters in incoming text request.
+- [Supported metrics for Microsoft.CognitiveServices/accounts](https://learn.microsoft.com/en-us/azure/azure-monitor/reference/supported-metrics/microsoft-cognitiveservices-accounts-metrics)
+> Text Characters Translated
+>> Number of characters in incoming text translation request.
 
 ***
 # 翻訳文字数データをファイルとしてダウンロードする手順
@@ -59,3 +59,4 @@ Translator Text API の翻訳文字数の確認方法と、参考情報をご紹
 `2020/05/28 created by Uehara`  
 `2022/01/25 modified by Uehara`  
 `2023/02/14 modified by Uehara`  
+`2024/05/20 modified by Uehara`
