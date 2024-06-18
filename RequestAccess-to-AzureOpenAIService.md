@@ -42,7 +42,7 @@ Modified Abuse Monitoring](https://customervoice.microsoft.com/Pages/ResponsePag
   ![contentFiltering-01](https://jpaiblog.github.io/images/RequestAccess-to-AzureOpenAIService/contentFiltering-01.png "contentFiltering-01")  
 
 ### クォータの引き上げ
-Azure OpenAI には、適用されるクォータによる制限があります。 この引き上げを希望する場合、Azure AI Studio の [管理 > クォータ > Request quota] の申請フォーム 「[Azure OpenAI Service: Request for Quota Increase](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4xPXO648sJKt4GoXAed-0pURVJWRU4yRTMxRkszU0NXRFFTTEhaT1g1NyQlQCN0PWcu)」 より必要事項を入力して送信ください。[[3]](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/quota?tabs=rest#view-and-request-quota)  
+Azure OpenAI には、適用されるクォータによる制限があります。 この引き上げを希望する場合、Azure OpenAI Studio の [管理 > クォータ > クォータの要求] の申請フォーム 「[Azure OpenAI Service: Request for Quota Increase](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4xPXO648sJKt4GoXAed-0pUMFE1Rk9CU084RjA0TUlVSUlMWEQzVkJDNCQlQCN0PWcu)」 より必要事項を入力して送信ください。[[3]](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/quota?tabs=rest#view-and-request-quota)  
 
 - 2023/05/23現在の状況    
   > Azure OpenAI Service は世界中から非常に高い需要が続いています。  
@@ -56,21 +56,6 @@ Azure OpenAI には、適用されるクォータによる制限があります�
 ### GPT-4 モデル
 
 以前は、GPT-4モデルを利用するためには申請が必要でしたが、2023年10月19日現在、申請は不要となりました。しかし、GPT-4モデルへの高い需要のため、Azure OpenAI Serviceが利用できるすべてのリージョンでGPT-4モデルが利用可能なわけではなく、利用できるリージョンは限られています[[4]](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models) 。使用中のリージョンでGPT-4が表示されない場合は、時間を置いて再度確認をお願いします。
-
-### 各種モデル
-
-以下のモデルを利用する場合には、申請フォーム「[Request Access to Azure OpenAI Service](https://aka.ms/oai/access)」 で Azure OpenAI Service 利用を申請する際、明示的に各モデルの利用を選択して送信ください。[[1]](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/limited-access)
-
-- GPT-4 Turbo with Vision モデル
-- DALL-E モデル
-- Whisper モデル
-
-  ![models-01](https://jpaiblog.github.io/images/RequestAccess-to-AzureOpenAIService/models-01.png "models-01")
-
-なお、これらモデルを利用できるリージョン（可用性）については、以下のドキュメントを参照してください。
-
-[Azure OpenAI Service モデル](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models)
-
 
 ### Azure OpenAI on your data のプライベート ネットワークのサポート
 Azure OpenAI on your dataにてプライベートネットワークの利用を可能にする場合、申請フォーム 「[Apply Azure AI Search Private Endpoint Request for Azure OpenAI on Your Data](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRw_T3EIZ1KNCuv_1duLJBgpUMUcwV1Y5QjI3UTVTMkhSVUo3R09NNVQxSyQlQCN0PWcu)  」 より必要事項を入力して送信ください。[[7]](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/use-your-data-securely#inbound-security-networking-1)  
