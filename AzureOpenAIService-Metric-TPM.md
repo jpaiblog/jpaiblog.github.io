@@ -16,15 +16,15 @@ tags:
 メトリックとは、Azure 上で特定のリソースに紐づいて集計された測定値のことを指します。
 Azure OpenAI リソースで集計されるメトリックには、リソースのパフォーマンスや使用状況を評価するための指標が含まれます。
 
-具体的には、Azure OpenAI リソースに関する、HTTP 要求数、生成されたトークン数、微調整モデルで処理されたトレーニング時間数などが含まれます。
-このように、メトリックを用いることで現在までのトークンの使用量を簡単に確認することできるため、トークン数の消費が多い時間帯の可視化や、特定の時間帯でレート制限に達しているかどうかの確認が可能になります。
+具体的には、Azure OpenAI リソースに関する、HTTP 要求数、入出力で処理されたトークン数、微調整モデルで処理されたトレーニング時間数などが含まれます。
+このように、メトリックを確認することで現在までのトークンの使用量を簡単に確認することできるため、トークン数の消費が多い時間帯の可視化が可能になります。
 
 # メトリックを通じて Azure OpenAI モデルで処理された入出力トークン数を確認する方法
 Azure Portal 上で該当するメトリックを確認する手順についてご紹介します。
 まず、以下の画像のようにAzure Portal のホーム画面から、対象の Azure OpenAI のリソースを開きます。
 
 
-<img src="https://jpaiblog.github.io/images/AzureOpenAIService-Metric-TPM/step1.png" width=400px>  
+<img src="https://jpaiblog.github.io/images/AzureOpenAIService-Metric-TPM/step1.png" width=1200px>  
 
 
 次に、以下の画像のように、上でアクセスしたAzure OpenAIリソース画面の左側のタブから「メトリック」を選択します。
@@ -34,7 +34,7 @@ Azure Portal 上で該当するメトリックを確認する手順について�
 ここでは、Azure OpenAI モデルで処理された入出力トークンの数「Processed Inference Tokens」を示すことを考えてみます。
 
 
-<img src="https://jpaiblog.github.io/images/AzureOpenAIService-Metric-TPM/step2.png" width=400px>  
+<img src="https://jpaiblog.github.io/images/AzureOpenAIService-Metric-TPM/step2.png" width=1200px>  
 
 
 公式ドキュメント[Azure OpenAI Service の監視](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/monitoring#azure-openai-metrics ) より「Azure OpenAIのメトリック」を参照することで、Azure Portalで確認できる「メトリック」と「集計」の情報を確認することができます。
@@ -44,7 +44,7 @@ Azure Portal 上で該当するメトリックを確認する手順について�
 そのため、「メトリック」に 「Processed Inference Tokens」、「集計」に 「合計」をプルダウンから選択することでトークンの使用量を確認することが可能です。　
 
 
-<img src="https://jpaiblog.github.io/images/AzureOpenAIService-Metric-TPM/metricscreenshot.png" width=400px>  
+<img src="https://jpaiblog.github.io/images/AzureOpenAIService-Metric-TPM/metricscreenshot.png" width=1200px>  
 
 
 上記の画像の通り、メトリックに「Processed Inference Tokens」、集計に「合計」を入力した結果、以下のようにトークンの使用量を確認することができました。
@@ -52,12 +52,12 @@ Azure Portal 上で該当するメトリックを確認する手順について�
 また、画面右上(赤枠部)より時刻表示の調整が可能になります。
 デフォルトでの表示以外のスケール(過去7日間や過去30日間など)で時刻の表示をすることができます。
 
-<img src="https://jpaiblog.github.io/images/AzureOpenAIService-Metric-TPM/step3.png" width=400px>  
+<img src="https://jpaiblog.github.io/images/AzureOpenAIService-Metric-TPM/step3.png" width=1200px>  
 
 ここで、次の画像のように、時間の粒度を「1 分」と選択することで、1 分あたりの入出力トークンの合計を算出することが出来ます。
 先ほどの「集計」で「合計」を選択したため、1 分あたりのトークン数の合計値が、グラフに描画されています。
 
-<img src="https://jpaiblog.github.io/images/AzureOpenAIService-Metric-TPM/step4.png" width=400px>
+<img src="https://jpaiblog.github.io/images/AzureOpenAIService-Metric-TPM/step4.png" width=600px>
 
 以上の手順で、メトリック　エクスプローラーで 1 分あたりの入出力トークン数をグラフに描画することができました。
 
