@@ -41,7 +41,7 @@ Azure Portal 上で該当するメトリックを確認する手順について�
 
 以下は公式ドキュメントの一部を抜粋したものですが、今回該当するメトリックは、入力と出力の合計のトークンであることから「メトリック」の列を見ると「Processed Inference Tokens」であることがわかります。
 また、その集計方法については、「集計」の列を見ると「SUM」(合計)であることがわかります。
-そのため、「メトリック」に 「Processed Inference Tokens」、「集計」に 「合計」をプルダウンから選択することでTPM使用量を確認することが可能です。　
+そのため、「メトリック」に 「Processed Inference Tokens」、「集計」に 「合計」をプルダウンから選択することでトークンの使用量を確認することが可能です。　
 
 
 <img src="https://jpaiblog.github.io/images/AzureOpenAIService-Metric-TPM/metricscreenshot.png" width=400px>  
@@ -54,8 +54,8 @@ Azure Portal 上で該当するメトリックを確認する手順について�
 
 <img src="https://jpaiblog.github.io/images/AzureOpenAIService-Metric-TPM/step3.png" width=400px>  
 
-ここで、次の画像のように、時間の粒度を「1 分」と選択することで、1 分あたりの入出力トークンの合計、すなわち TPM を算出することが出来ます。
-これは、先ほどの「集計」で「合計」を選択したため、1 分あたりのトークン数の合計値が、グラフに描画されるためです。
+ここで、次の画像のように、時間の粒度を「1 分」と選択することで、1 分あたりの入出力トークンの合計を算出することが出来ます。
+先ほどの「集計」で「合計」を選択したため、1 分あたりのトークン数の合計値が、グラフに描画されています。
 
 <img src="https://jpaiblog.github.io/images/AzureOpenAIService-Metric-TPM/step4.png" width=400px>
 
