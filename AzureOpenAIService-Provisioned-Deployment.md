@@ -13,13 +13,13 @@ tags:
 ***
 ## Provisioned (プロビジョニング済み) のデプロイの概要
 
-Azure OpenAI Service では、モデルをデプロイする際に[デプロイの種類](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/deployment-types)を選択します。その中で今回紹介するのは "プロビジョニング済み" (Provisioned または Provisioned-Managed) のデプロイです。
+Azure OpenAI Service では、モデルをデプロイする際に[デプロイの種類](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/deployment-types)を選択します。その中で今回紹介するのは "プロビジョニング済み" (Provisioned または Provisioned-managed) のデプロイです。
 
 [2024年8月の更新](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/concepts/provisioned-migration)により、広く一般に Provisioned のデプロイが利用できるようになりました (それ以前は、Microsoft のアカウントチームを通じて個別でリクエストが必要でした)。これに伴い、利用方法や料金体系も変更となっています。
 
 ### 新しい Provisioned のポイント
-1. ユーザーは許可されたクォータの範囲で、デプロイの種類:Provisioned-Managed のデプロイを作成することができます
-2. Provisioned-Managed のデプロイを作成すると、ユニット数および利用時間に応じた課金が発生します
+1. ユーザーは許可されたクォータの範囲で、デプロイの種類:Provisioned-managed のデプロイを作成することができます
+2. Provisioned-managed のデプロイを作成すると、ユニット数および利用時間に応じた課金が発生します
 3. (必要に応じて) 月単位または年単位で予約 (Reservation) を購入することで料金が割り引かれます
 4. 時間単位の課金を停止するにはデプロイを削除します
 
@@ -32,7 +32,7 @@ Provisioned のデプロイでは、指定されたユニット (Provisioned Thr
 
 
 ### デプロイ時の表示について
-Azure OpenAI Studio からモデルをデプロイする際には、デプロイの種類は Provisioned-Managed と表示されます。また、指定されたユニット数に応じた時間単位の課金額の見込みも確認できます。
+Azure OpenAI Studio からモデルをデプロイする際には、デプロイの種類は Provisioned-managed と表示されます。また、指定されたユニット数に応じた時間単位の課金額の見込みも確認できます。
 
 - Azure OpenAI Studio での表示例:
 
