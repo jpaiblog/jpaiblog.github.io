@@ -20,15 +20,18 @@ Azure OpenAI Service には制限付きアクセス ([Limited Access](https://le
 - Modified Content Filtering の有効化
 - Modified Abuse Monitoring の有効化
 
-これらに関連した以下のようなお問い合わせについては、申請フォームに記載のメールアドレス **csgate@microsoft.com** にご連絡ください。
-
-- Q. 申請フォームに記載するべき内容について確認したい。
-- Q. 申請フォームからアクセスをリクエストしたが応答が無いため状況を確認したい。
-- Q. 申請が拒否されたのでその理由を知りたい・再審査を要求したい。
-- Q. Content Filtering / Abuse Monitoring について "オプトアウト" をリクエストしたい。 (注: マイクロソフトのドキュメントでは "オプトアウト" という単語は使用していません)
-
-Limited Access の申請・審査のプロセスは、マイクロソフト本社の特別な部門が管理しています。そのため Azure ポータルからのお問い合わせでは回答できません。
+Limited Access の申請・審査のプロセスは、マイクロソフト本社の特別な部門が管理しています。そのため Azure ポータルからのお問い合わせでは回答できません。申請フォームに記載のメールアドレス **csgate@microsoft.com** にご連絡ください。
 また **csgate@microsoft.com** へのお問い合わせは **英語のみ** での対応となりますのでご留意ください。
+
+## Q&A
+### Q:
+
+- 申請フォームに記載するべき内容について確認したい。
+- 申請フォームからアクセスをリクエストしたが応答が無いため状況を確認したい。
+- 申請が拒否されたのでその理由を知りたい・再審査を要求したい。
+- Content Filtering / Abuse Monitoring について "オプトアウト" をリクエストしたい。 (注: マイクロソフトのドキュメントでは "オプトアウト" という単語は使用していません)
+
+A. 申請フォームに記載のメールアドレス **csgate@microsoft.com** にご連絡ください。Azure ポータルからのお問い合わせでは回答できません。
 
 
 <br>
@@ -97,12 +100,13 @@ A. お客様個別のご要件に応じた設定のアドバイスや、カス�
 
 将来のリリース予定については、一般に公開 (マイクロソフト公式のドキュメントやブログで広くアナウンス) されていない限り、ビジネス上の機密情報に当たるため、Azure サポートでは回答できません。
 
-### ご質問の例:
+## Q&A
+### Q:
 
-- Q. OpenAI が発表した新機能が Azure OpenAI Service でいつ利用できるようになるのか。
-- Q. OpenAI の新しいモデルを Azure で利用したいが提供予定を教えてほしい。
-- Q. あるリージョン (例. 東日本) で特定のモデル・バージョンが利用できるようになる時期を知りたい。
-- Q. [データの所在地](https://azure.microsoft.com/en-us/explore/global-infrastructure/data-residency/)に要件があるため [Standard のデプロイ](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/deployment-types#standard)で利用したい。Standard のデプロイで利用できるようになる予定はあるか。
+- OpenAI が発表した新機能が Azure OpenAI Service でいつ利用できるようになるのか。
+- OpenAI の新しいモデルを Azure で利用したいが提供予定を教えてほしい。
+- あるリージョン (例. 東日本) で特定のモデル・バージョンが利用できるようになる時期を知りたい。
+- [データの所在地](https://azure.microsoft.com/en-us/explore/global-infrastructure/data-residency/)に要件があるため [Standard のデプロイ](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/deployment-types#standard)で利用したい。Standard のデプロイで利用できるようになる予定はあるか。
 
 A. 公開情報でのアナウンスをお待ちください。
 
