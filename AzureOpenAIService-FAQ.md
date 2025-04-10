@@ -1,6 +1,6 @@
 ---
 title: Azure OpenAI Service に関する FAQ
-date: 2025-04-02 00:00:00
+date: 2025-04-10 00:00:00
 categories:
 - Azure OpenAI
 tags:
@@ -226,7 +226,7 @@ Customer Copyright Commitment は、2023 年 12 月 1 日の Microsoft の製品
 
 ***
 `変更履歴`  
-`2025/04/02 created by Nakagami`  
+`2025/04/10 created by Nakagami`  
 
 ※ 本記事は 「[jpaiblog について](https://jpaiblog.github.io/blog/2020/01/01/about-jpaiblog/)」 の留意事項に準じます。  
 ※ 併せて 「[ホームページ](https://jpaiblog.github.io/blog/)」 および 「[記事一覧](https://jpaiblog.github.io/blog/archives/)」 もご参照いただければ幸いです。  
