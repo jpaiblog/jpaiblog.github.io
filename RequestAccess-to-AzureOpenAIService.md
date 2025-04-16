@@ -100,7 +100,7 @@ Azure OpenAI on your dataにてプライベートネットワークの利用を�
 `2023/08/18 update  by Kudou`   
 `2023/10/19 update  by Kudou`   
 `2024/01/05 update  by Uehara`  
-`2024/01/05 add link  by Nakagami`  
+`2024/04/15 add link  by Nakagami`  
 
 ※ 本記事は 「[jpaiblog について](https://jpaiblog.github.io/blog/2020/01/01/about-jpaiblog/)」 の留意事項に準じます。  
 ※ 併せて 「[ホームページ](https://jpaiblog.github.io/blog/)」 および 「[記事一覧](https://jpaiblog.github.io/blog/archives/)」 もご参照いただければ幸いです。  
