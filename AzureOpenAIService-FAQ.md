@@ -34,7 +34,6 @@ Limited Access の申請・審査のプロセスは、マイクロソフト本�
 
 A. 申請フォームに記載のメールアドレス **csgate@microsoft.com** にご連絡ください。Azure ポータルからのお問い合わせでは回答できません。
 
-
 <br>
 
 ***
@@ -57,6 +56,12 @@ A. クォータの引き上げ申請は Azure サポートではなく、専門�
 A. Azure サポートでは申請の状況を確認したり、加速したりすることはできません。申請受領の応答メールにある担当部門の連絡先 (msazureopenai@microsoft.com, 英語のみ) にお問い合わせいただくことをご検討ください。
 また個別の審査状況についてビジネス面からの優先対応をご要望の場合はアカウント チームへご相談ください。
 
+[申請フォーム](https://aka.ms/oai/quotaincrease)より抜粋:
+
+```
+Azure Technical Support cannot be used to expedite the submission process.
+```
+
 ### Q. クォータ引き上げのリクエストが拒否された。
 A. Azure OpenAI Service は世界中から需要があるため、リクエストされた内容 (リージョン・デプロイの種類・数量) によってはお承りできない場合があります。リクエスト内容を変更して再度申請いただくことをご検討ください。Azure サポートでは具体的な理由の説明や再審査のリクエストは受付できません。もし同じ内容での再審査をご希望の場合はアカウント チームへご相談ください。
 
@@ -71,6 +76,10 @@ A. クォータの上限は変更される可能性があります。変更後�
 Important
 Quotas and limits are subject to change, for the most up-date-information consult our quotas and limits article.
 ```
+
+### Q. CSP サブスクリプションでは誰が申請するべきか？パートナーか、エンドユーザーか？
+A. 
+原則としてはサブスクリプションの種類によらず、リクエスト対象の Azure サブスクリプションについて[契約](https://azure.microsoft.com/ja-jp/support/legal/)上の責任を負う方から申請いただくことを想定しています。Azure サポートでは個別のケースについて具体的な入力内容のアドバイスをすることはできません。
 
 <br>
 
