@@ -101,8 +101,25 @@ https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/quota?tabs=res
 - [レート制限のベスト プラクティス](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/quota?tabs=rest#rate-limit-best-practices)  
 <br>
 
+## HTTP 500 / 503 エラー / Service Unavailable 
+
+このエラーは、サーバー側で問題が発生したことを表しており、以下のようなメッセージと共に応答されることがあります。<br />
+
+> "Service Unavailable"
+
+> "The server had an error while processing your request."
+
+多くの場合、これは[一時的な (一過性の) 事象](https://learn.microsoft.com/ja-jp/azure/architecture/best-practices/transient-faults)です。Azure OpenAI Service では、多くのユーザーが同じ処理基盤を共有しており、一時的なリソースのひっ迫や処理の失敗により、これらのエラーが応答されることがあります。<br />
+[デプロイの種類](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/deployment-types)によらず、[サービスの可用性](https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services?lang=1)は 100% ではないため、この種のエラーの発生頻度をゼロにすることはできません。
+ 
+**対処方法：** 
+- 時間を空けて API 呼び出し (HTTP リクエスト) をリトライ (再試行) します。再試行が短時間に集中しないよう、[試行間隔の無作為化や指数バックオフ](https://learn.microsoft.com/ja-jp/azure/architecture/best-practices/transient-faults#determine-an-appropriate-retry-count-and-interval)を組み込むことが推奨されます。
+- 再試行を繰り返しても失敗する状況が長時間継続している場合は、既知の問題の有無を[サービス正常性](https://learn.microsoft.com/ja-jp/azure/service-health/overview)で確認します。
+<br>
+
 ***
 `変更履歴`  
+`2025-04-30 updated by Nakagami`   
 `2023-12-29 created by Uehara`   
 
 ※ 本記事は 「[jpaiblog について](https://jpaiblog.github.io/blog/2020/01/01/about-jpaiblog/)」 の留意事項に準じます。  
