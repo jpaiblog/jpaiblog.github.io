@@ -45,7 +45,7 @@ Azure OpenAI Service で利用できる [Azure Monitor のメトリック](https
 Azure OpenAI Service では、他の Azure AI services と同様に、API 呼び出し毎にステータスコードなどの記録を行う[診断ログ](https://learn.microsoft.com/ja-jp/azure/ai-services/diagnostic-logging)がサポートされています。 **事前に** Log Analaytics などへログを出力する設定を行うことで、API 呼び出しの種類やレスポンス コードなどを確認することができます。
 
 **Azure ポータル (Log Analytics) での表示例:**
-<img src="https://jpaiblog.github.io/images/AzureOpenAIService-Monitor-Response/AOAI-DiagLog" width=800px>
+<img src="https://jpaiblog.github.io/images/AzureOpenAIService-Monitor-Response/AOAI-DiagLog.png" width=800px>
 
 <br/>
 
