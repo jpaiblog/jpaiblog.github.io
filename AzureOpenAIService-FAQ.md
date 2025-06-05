@@ -105,7 +105,7 @@ A. 各サービスのネットワークに関連した機能についてそれ�
 
 Azure OpenAI Service、特に On-Your-Data をご利用の場合に、ネットワークを制限 (いわゆる "閉域化") を行う方法については、[ドキュメント](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/on-your-data-configuration)が用意されています。それぞれの製品 (例. [App Service の仮想ネットワーク統合](https://learn.microsoft.com/ja-jp/azure/app-service/overview-vnet-integration)) の具体的な設定に関するお問い合わせは対象のサービス・リソースを選択して Azure ポータルからご起票ください。
 
-### Q. サンプルの Web アプリで可能ことを確認したい。
+### Q. サンプルの Web アプリで可能なことを確認したい。
 A. Web アプリの実装や機能に関する解説は Azure サポートでは行っておりません。具体的な実装は [GitHub](https://github.com/microsoft/sample-app-aoai-chatGPT/tree/main) をご確認ください。
 
 ### Q. Web アプリの表示を変更したい・機能を追加したい。
