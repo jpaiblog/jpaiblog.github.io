@@ -122,10 +122,14 @@ A. お客様個別のご要件に応じた設定のアドバイスや、カス�
 ## Q&A
 ### Q:
 
+- Preview の機能が GA (一般公開) となる時期を知りたい。
 - OpenAI が発表した新機能が Azure OpenAI Service でいつ利用できるようになるのか。
 - OpenAI の新しいモデルを Azure で利用したいが提供予定を教えてほしい。
-- あるリージョン (例. 東日本) で特定のモデル・バージョンが利用できるようになる時期を知りたい。
+- あるリージョン (例. 東日本) で特定のモデル・バージョン・デプロイの種類が利用できるようになる時期を知りたい。
 - [データの所在地](https://azure.microsoft.com/en-us/explore/global-infrastructure/data-residency/)に要件があるため [Standard のデプロイ](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/deployment-types#standard)で利用したい。Standard のデプロイで利用できるようになる予定はあるか。
+- 提供終了 (Retirement) が予定されているモデルについて、後継のモデルがリリースされる予定や時期を知りたい。
+- 提供終了となるモデルでのみサポートされている機能が、今後は新しいモデルでもサポートされるようになるか。
+- モデルの提供終了予定日について、公開ドキュメントや Azure AI Foundry の日付よりも詳細な情報はあるか。
 
 A. 公開情報でのアナウンスをお待ちください。
 
@@ -164,6 +168,7 @@ $ az rest --method get --url "/subscriptions/<YOUR SUB ID>/providers/Microsoft.C
 
 Azure CLI については Azure ポータルの [Cloud Shell](https://learn.microsoft.com/ja-jp/azure/cloud-shell/overview) でも利用できます。
 
+また、[モデルの提供終了](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-retirements)のドキュメントについても同様に手動で更新されているため、Azure AI Foundry の Web ポータルで確認できる最新の情報とは日付が異なる場合があります。Azure AI Foundry と同じ情報は [Accounts - List Models](https://learn.microsoft.com/en-us/rest/api/aiservices/accountmanagement/accounts/list-models?view=rest-aiservices-accountmanagement-2024-10-01&tabs=HTTP) や [Models - List](https://learn.microsoft.com/en-us/rest/api/aiservices/accountmanagement/models/list?view=rest-aiservices-accountmanagement-2024-10-01&tabs=HTTP) の API で取得することができます (注: プロパティ名は `deprecation` となっていますが、実際は Retirement を表します)。
 
 <br>
 
