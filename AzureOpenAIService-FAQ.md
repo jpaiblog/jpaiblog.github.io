@@ -141,29 +141,35 @@ Azure OpenAI Service や Azure AI Foundry のリリース情報は[製品開発�
 
 そのため実際に利用可能なモデル・バージョン・リージョン・デプロイの種類に関する最新の情報は、ご利用の Azure サブスクリプションで [Models - List](https://learn.microsoft.com/en-us/rest/api/aiservices/accountmanagement/models/list?view=rest-aiservices-accountmanagement-2024-10-01&tabs=HTTP) の API を使用してご確認いただくことが推奨されます。
  
-- Azure CLI での実行例:
+- Azure CLI での実行例 (リージョン: japaneast の場合):
 ```
-$ az rest --method get --url "/subscriptions/<YOUR SUB ID>/providers/Microsoft.CognitiveServices/modelCapacities?api-version=2024-04-01-preview&modelFormat=OpenAI&modelName=gpt-4o&modelVersion=2024-11-20"
+$ az rest -m get -u "/subscriptions/YOUR_SUBSCRIPTION_ID/providers/Microsoft.CognitiveServices/locations/japaneast/models?api-version=2024-10-01" 
  
+ ...
+     {
+      "id": "/subscriptions/YOUR_SUBSCRIPTION_ID/providers/Microsoft.CognitiveServices/locations/JapanEast/models/OpenAI.gpt-4.1.2025-04-14",
+      "kind": "AIServices",
+      "location": "JapanEast",
+      "model": {
 ...
- 
-    {
-     "id": "/subscriptions//<YOUR SUB ID>/providers/Microsoft.CognitiveServices/locations/japaneast/models/OpenAI.gpt-4o.2024-11-20/skuCapacities/Standard",
-      "location": "japaneast",
-      "name": "Standard",
-     "properties": {
-       "availableCapacity": 50,
-       "model": {
-         "format": "OpenAI",
-         "name": "gpt-4o",
-         "version": "2024-11-20"
-       },
-       "skuName": "Standard"
-      },
-     "type": "Microsoft.CognitiveServices/locations/models/skuCapacities"
+        "name": "gpt-4.1",
+        "skus": [
+          {
+...
+            "name": "GlobalStandard",
+...
+          },
+          {
+...
+            "name": "ProvisionedManaged",
+...
+          },
+...
+      "name": "OpenAI.gpt-4.1.2025-04-14",
+      "skuName": "S0",
+      "type": "Microsoft.CognitiveServices/locations/models"
     },
 
-...
 ```
 
 Azure CLI については Azure ポータルの [Cloud Shell](https://learn.microsoft.com/ja-jp/azure/cloud-shell/overview) でも利用できます。
@@ -239,7 +245,8 @@ Customer Copyright Commitment は、2023 年 12 月 1 日の Microsoft の製品
 <br>
 
 ***
-`変更履歴`  
+`変更履歴` 
+`2025/12/26 updated by Nakagami`  
 `2025/04/10 created by Nakagami`  
 
 ※ 本記事は 「[jpaiblog について](https://jpaiblog.github.io/blog/2020/01/01/about-jpaiblog/)」 の留意事項に準じます。  
