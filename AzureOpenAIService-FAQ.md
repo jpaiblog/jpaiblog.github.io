@@ -139,7 +139,7 @@ Azure OpenAI Service や Azure AI Foundry のリリース情報は[製品開発�
 
 [リージョンやモデルの利用可否を列挙している公開ドキュメント](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models)は手動で更新されており、最新の状況が反映されていない場合があります。また Limited Access のため一部のサブスクリプションに限定して提供されている場合もあります。
 
-そのため実際に利用可能なモデル・バージョン・リージョン・デプロイの種類に関する最新の情報は、ご利用の Azure サブスクリプションで [Model Capacities - List](https://learn.microsoft.com/en-us/rest/api/aiservices/accountmanagement/model-capacities/list?view=rest-aiservices-accountmanagement-2024-10-01&tabs=HTTP) の API を使用してご確認いただくことが推奨されます。
+そのため実際に利用可能なモデル・バージョン・リージョン・デプロイの種類に関する最新の情報は、ご利用の Azure サブスクリプションで [Models - List](https://learn.microsoft.com/en-us/rest/api/aiservices/accountmanagement/models/list?view=rest-aiservices-accountmanagement-2024-10-01&tabs=HTTP) の API を使用してご確認いただくことが推奨されます。
  
 - Azure CLI での実行例:
 ```
