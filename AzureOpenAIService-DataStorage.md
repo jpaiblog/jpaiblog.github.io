@@ -16,7 +16,7 @@ tags:
 ***
 ## はじめに
 
-Azure OpenAI Service の利用に関連してクラウド サービス上で保存 (store) されるデータには以下の２つがあります。
+Models sold by Azure in Microsoft Foundry の利用に関連してクラウド サービス上で保存 (store) されるデータには以下の２つがあります。
 
 - (1) サービス提供に必要な、利用者の操作や API 呼び出しに応じて保存されるお客様データ (Customer Data)
 - (2) Abuse Monitoring を目的として保存されるデータ
@@ -53,6 +53,14 @@ Abuse Monitoring によって機械的な監視で不正 (Abuse) の可能性が
 
 ```
 By default, if prompts and completions are flagged through content classification as harmful and/or identified to be part of a potentially abusive pattern of use, they might be sampled for review by using automated means including AI models such as LLMs instead of a human reviewer.
+```
+
+Abuse Monitoring 以外の目的 (例. モデルの品質改善) で使用されることはなく、また不要となったデータを永続的に保持することはありません。
+
+- [Data, privacy, and security for Models sold by Azure in Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/openai/data-privacy?tabs=azure-portal)
+
+```
+Human reviewers assessing potential abuse can access prompts and completions data only when that data has already been flagged by the abuse monitoring system, or when the prompts and completions are part of a potentially abusive pattern of use. The human reviewers are authorized Microsoft employees who access the data via point wise queries using request IDs, Secure Access Workstations (SAWs), and Just-In-Time (JIT) request approval granted by team managers.
 ```
 
 Abuse Monitoring で保存されたデータ (プロンプトや生成されたコンテンツ) を、ユーザーが個別に削除するための API や申請手続きは提供されていません。
