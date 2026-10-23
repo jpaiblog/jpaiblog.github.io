@@ -9,6 +9,13 @@ tags:
 この記事では、Azure OpenAI Service に関して [Azure サポート](https://learn.microsoft.com/ja-jp/azure/azure-portal/supportability/how-to-create-azure-support-request) によくお問い合わせいただくご質問と回答 (FAQ) をまとめています。
 
 <!-- more -->
+#### 目次
+- [1. 制限付きアクセス (Limited Access) について](https://github.com/jpaiblog/jpaiblog.github.io/blob/master/AzureOpenAIService-FAQ.md#1-%E5%88%B6%E9%99%90%E4%BB%98%E3%81%8D%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9-limited-access-%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
+- [2. クォータ申請について](https://github.com/jpaiblog/jpaiblog.github.io/blob/master/AzureOpenAIService-FAQ.md#2-%E3%82%AF%E3%82%A9%E3%83%BC%E3%82%BF%E7%94%B3%E8%AB%8B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
+- [3. サンプルの Web アプリについて](https://github.com/jpaiblog/jpaiblog.github.io/blob/master/AzureOpenAIService-FAQ.md#3-%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%81%AE-web-%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
+- [4. 新しいモデル・機能やリージョンの利用可否について](https://github.com/jpaiblog/jpaiblog.github.io/blob/master/AzureOpenAIService-FAQ.md#4-%E6%96%B0%E3%81%97%E3%81%84%E3%83%A2%E3%83%87%E3%83%AB%E6%A9%9F%E8%83%BD%E3%82%84%E3%83%AA%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AE%E5%88%A9%E7%94%A8%E5%8F%AF%E5%90%A6%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
+- [5. 利用契約や関連法規について](https://github.com/jpaiblog/jpaiblog.github.io/blob/master/AzureOpenAIService-FAQ.md#5-%E5%88%A9%E7%94%A8%E5%A5%91%E7%B4%84%E3%82%84%E9%96%A2%E9%80%A3%E6%B3%95%E8%A6%8F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
+
 <br>
 
 ***
